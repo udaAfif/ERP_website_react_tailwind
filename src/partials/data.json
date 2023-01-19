@@ -1,0 +1,55 @@
+{
+    "resources": [
+      {
+        "title": "Find me on Kakao",
+        "link": "https://www.kakaopay.com/",
+        "imageUrl": "/src/images/Client_Kakao.png"
+      },
+      {
+        "title": "Welcome to Hanwha Systems",
+        "link": "https://www.hanwhasystems.com/en/",
+        "imageUrl": "/src/images/Client_Hanhwa.png"
+      },
+      {
+        "title": "Find me on Hyundai",
+        "link": "https://en.hdec.kr/intro_en.aspx",
+        "imageUrl": "/src/images/Client_Hyundai.png"
+      },
+      {
+        "title": "Welcome to LG",
+        "link": "https://www.lge.co.kr/",
+        "imageUrl": "/src/images/Client_LG.png"
+      },
+      {
+        "title": "Find me on Line",
+        "link": "https://line.me/ko/",
+        "imageUrl": "/src/images/Client_Line.png"
+      },
+      {
+        "title": "Welcome to Mnet",
+        "link": "https://www.mwave.me/en",
+        "imageUrl": "/src/images/Client_MNET.png"
+      },
+      {
+        "title": "Find me on Samsung",
+        "link": "https://www.samsung.com/sec/",
+        "imageUrl": "/src/images/Client_Samsung.png"
+      },
+      {
+        "title": "Welcome to Semes",
+        "link": "/",
+        "imageUrl": "/src/images/Client_Semes.png"
+      },
+      {
+        "title": "Find me on SIT",
+        "link": "https://www.sit.re.kr/en/main.do",
+        "imageUrl": "/src/images/Client_SIT.png"
+      },
+      {
+        "title": "Welcome to TVN",
+        "link": "http://tvn.tving.com/tvn",
+        "imageUrl": "/src/images/Client_TVN.png"
+      }
+    ]
+  }
+  
