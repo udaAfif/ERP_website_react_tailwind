@@ -10,18 +10,19 @@ function AutoChecker() {
         data-aos="zoom-y-out"
         data-aos-delay="150"
       >
-        <div className="bg-gradient-to-l  from-[#5F7CDD] to-[#5BA4E8] ">
+        <div className="">
+          <img src="/src/images/Autochcker.png" className="absolute -z-1 " />
           <div className="p-10 ">
             <div className="-mt-16">
               <div className="w-full flex justify-center items-center flex-1 mt-20">
                 <div className="">
-                  <h1 className="text-white text-sm font-normal text-center">
+                  <h1 className="text-[#000000] lg:text-white text-sm font-normal text-center">
                     Wecruit Autochecker
                   </h1>
-                  <h1 className="text-white text-5xl font-bold text-center">
+                  <h1 className="text-[#000000] lg:text-white text-5xl font-bold text-center">
                     Quick and Easy solution <br /> to do background checking.
                   </h1>
-                  <h3 className=" text-white text-xl mt-3 font-normal text-center">
+                  <h3 className=" text-[#000000] lg:text-white text-xl mt-3 font-normal text-center">
                     A reference check autopilot tool solution that combines IT
                     technology, including emotional analysis and <br />{" "}
                     infographic reports using Google’s artificial intelligence

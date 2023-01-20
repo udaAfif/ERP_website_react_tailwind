@@ -3,7 +3,11 @@ import { useState, useRef, useEffect } from "react";
 const FreeTrial = () => {
   return (
     <>
-      <div className="carousel my-12 mx-auto">
+      <div
+        className="carousel my-12 mx-auto"
+        data-aos="zoom-y-out"
+        data-aos-delay="300"
+      >
         <svg
           width="90"
           height="90"

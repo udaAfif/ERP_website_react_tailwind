@@ -10,7 +10,8 @@ function HeadHunter() {
         data-aos="zoom-y-out"
         data-aos-delay="150"
       >
-        <div className="bg-gradient-to-l  from-[#5F7CDD] to-[#5BA4E8] ">
+        <div className="">
+          <img src="/src/images/Headhunter.png" className="absolute -z-1 " />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
             <div className="p-10 flex justify-center scale-150">
               <img src="/src/images/smartmockups_ld2miring-removebg-preview.png" />
@@ -19,14 +20,14 @@ function HeadHunter() {
               <div className="lg:mt-20 -mt-16">
                 <div className="w-full flex justify-center items-center flex-1 mt-20">
                   <div className="">
-                    <h1 className="text-white text-sm font-normal">
+                    <h1 className="text-[#000000] lg:text-white text-sm font-normal">
                       Wecruit Headhunter
                     </h1>
-                    <h1 className="text-white text-5xl font-bold">
+                    <h1 className="text-[#000000] lg:text-white text-5xl font-bold">
                       Korea #1 headhunting <br />
                       service platform
                     </h1>
-                    <h3 className=" text-white text-xl mt-3 font-normal ">
+                    <h3 className=" text-[#000000] lg:text-white text-xl mt-3 font-normal ">
                       A reference check autopilot tool solution that combines IT
                       technology, including emotional analysis and infographic
                       reports using Google’s artificial intelligence engine.
@@ -92,10 +93,10 @@ function HeadHunter() {
             >
               {/* Section header */}
               <div className="pb-12 md:pb-20">
-                <p className="text-xl text-[#5F7CDD] mb-3 font-semibold">
+                <p className="text-xl lg:text-white text-[#5F7CDD] mb-3 font-semibold">
                   WHAT IS HEADHUNTER by WECRUIT
                 </p>
-                <h2 className="h2 mb-4">
+                <h2 className="h2 mb-4 ">
                   A Quick and Easy solution <br /> for long and tiring
                   recruitment process.
                 </h2>

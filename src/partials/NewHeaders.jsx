@@ -168,7 +168,7 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
                       <div className="px-2 py-2 bg-white rounded-md shadow dark-mode:bg-gray-800">
                         <button onClick={closeDrop}>
                           <NavLink
-                            to="/headhunter"
+                            to="/autochecker"
                             className={({ isActive }) =>
                               isActive ? activeLink : normalLink
                             }
@@ -177,20 +177,20 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
                               href="#"
                               className="text-base mb-2 text-[#5F7CDD] font-medium transition duration-150 border-b-4 border-transparent hover:border-[#5F7CDD] flex items-center"
                             >
-                              Headhunter
+                              Autochecker
                             </a>
                           </NavLink>
                           <NavLink
-                            to="/autochecker"
+                            to="/headhunter"
                             className={({ isActive }) =>
                               isActive ? activeLink : normalLink
                             }
                           >
                             <a
                               href="#"
-                              className="text-base text-[#5F7CDD] font-medium transition duration-150 border-b-4 border-transparent hover:border-[#5F7CDD] flex items-center"
+                              className="text-base  text-[#5F7CDD] font-medium transition duration-150 border-b-4 border-transparent hover:border-[#5F7CDD] flex items-center"
                             >
-                              Autochecker
+                              Headhunter
                             </a>
                           </NavLink>
                         </button>

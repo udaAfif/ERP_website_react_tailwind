@@ -49,7 +49,11 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="carousel my-12 mx-auto">
+      <div
+        className="carousel my-12 mx-auto"
+        data-aos="zoom-y-out"
+        data-aos-delay="300"
+      >
         <h2 className="text-4xl leading-8 text-center text-[#5F7CDD] font-semibold mb-5">
           Our Client
         </h2>
