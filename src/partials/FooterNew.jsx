@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function FooterNew() {
   return (
     <>
-      <div class="container text-center px-10 ">
+      <div class="container text-center mx-auto ">
         <div class="container text-center mx-auto mt-10">
           <div class=" sm:inline-flex ">
             <div className="flex justify-center">
@@ -121,7 +121,7 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
         </div>
 
         <footer class="p-4 bg-white sm:hidden md:flex md:items-center md:justify-between md:p-6 ">
-          <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+          <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0 ml-28">
             <li className="">
               <a href="#" class="mr-4 hover:underline md:mr-6 ">
                 <svg
@@ -198,6 +198,7 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
               <a href="#" class="mr-4 hover:underline md:mr-6"></a>
             </li>
           </ul>
+
           <span class="text-sm font-bold text-[#5F7CDD] sm:text-center  ">
             2023 Copyright @ WECRUIT Co., Ltd. All rights reserved.
           </span>

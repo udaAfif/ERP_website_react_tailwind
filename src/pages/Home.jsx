@@ -16,7 +16,7 @@ const Home = () => {
           <Carousel />
         </div>
 
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
     </>
   );

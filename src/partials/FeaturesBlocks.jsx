@@ -19,7 +19,7 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className=" mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 text-[#5F7CDD] lg:text-left text-center">
-              Why Choose Wecruit Solution.
+              Benefits Choosing Wecruit Solution.
             </h2>
             <p className="text-xl text-white lg:text-left text-center">
               The best feature for the best person.
@@ -33,7 +33,7 @@ function FeaturesBlocks() {
             data-aos-delay="300"
           >
             {/* 1st item */}
-            <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl">
+            <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -59,7 +59,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col  p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col  p-6 bg-white rounded shadow-xl h-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -86,7 +86,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col  p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col  p-6 bg-white rounded shadow-xl h-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -113,7 +113,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-col  p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col  p-6 bg-white rounded shadow-xl h-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

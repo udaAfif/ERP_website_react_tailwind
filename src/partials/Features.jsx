@@ -258,60 +258,116 @@ function Features() {
               </div>
             </div>
           </div> */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
             <div className="flex text-[#5F7CDD] justify-center text-base font-semibold">
               <img
                 className="mx-auto mb-5"
                 width="768"
                 height="432"
-                src="/src/images/Front Page Image (1).png"
+                src="/src/images/logo-checker-01.png"
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               />
             </div>
-            <div className="">
-              <p
-                className="text-[#5F7CDD] justify-center text-[40px] font-bold"
-                data-aos="zoom-y-out"
-                data-aos-delay="300"
-              >
-                What is Wecruit Solution?
-              </p>
-              <p
-                className="mt-5 text-white leading-8 font-semibold text-2xl "
-                data-aos="zoom-y-out"
-                data-aos-delay="300"
-              >
-                Fast and accurate solutions using A.I for the hiring process.
-                All in one program. Want to check your candidate's background?
-                Or do you want to sort the best candidates out of the thousands
-                of candidates who have registered? With Wecruit Solution, we
-                have the answer.
-              </p>
-              <div
-                className="max-w-xs mx-auto sm:max-w-none sm:flex mt-5 mb-5"
-                data-aos="zoom-y-out"
-                data-aos-delay="300"
-              >
-                <div>
-                  <a
-                    className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                    href="#0"
-                  >
-                    Try Now
-                    <svg
-                      className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
-                      viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg"
+            <div className="flex items-center ">
+              {" "}
+              <div className="">
+                <p
+                  className="text-[#5F7CDD] justify-center text-[40px] font-bold"
+                  data-aos="zoom-y-out"
+                  data-aos-delay="300"
+                >
+                  AutoChecker
+                </p>
+                <p
+                  className="mt-5 text-white leading-8 font-semibold text-2xl "
+                  data-aos="zoom-y-out"
+                  data-aos-delay="300"
+                >
+                  Doing reference check just in 4 quick steps. Using online
+                  reference check service for time-efficient and cost-effective.
+                </p>
+                <div
+                  className="max-w-xs mx-auto sm:max-w-none sm:flex mt-5 mb-5"
+                  data-aos="zoom-y-out"
+                  data-aos-delay="300"
+                >
+                  <div>
+                    <a
+                      className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                      href="#0"
                     >
-                      <path
-                        d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                        fillRule="nonzero"
-                      />
-                    </svg>
-                  </a>
+                      About AutoChecker
+                      <svg
+                        className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
+                          fillRule="nonzero"
+                        />
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
+            </div>
+
+            <div className="flex items-center ">
+              {" "}
+              <div className="">
+                <p
+                  className="text-[#5F7CDD] justify-center text-[40px] font-bold"
+                  data-aos="zoom-y-out"
+                  data-aos-delay="300"
+                >
+                  Headhunter
+                </p>
+                <p
+                  className="mt-5 text-white leading-8 font-semibold text-2xl "
+                  data-aos="zoom-y-out"
+                  data-aos-delay="300"
+                >
+                  Headhunter platform for “Hunters” all free. Managing
+                  headhunters in a simple way using platform.
+                </p>
+                <div
+                  className="max-w-xs mx-auto sm:max-w-none sm:flex mt-5 mb-5"
+                  data-aos="zoom-y-out"
+                  data-aos-delay="300"
+                >
+                  <div>
+                    <a
+                      className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                      href="#0"
+                    >
+                      About Headhunter
+                      <svg
+                        className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
+                          fillRule="nonzero"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex text-[#5F7CDD] justify-center text-base font-semibold">
+              <img
+                className="mx-auto mb-5"
+                width="768"
+                height="432"
+                src="/src/images/logo-headhunter.png"
+                data-aos="zoom-y-out"
+                data-aos-delay="300"
+              />
             </div>
           </div>
         </div>

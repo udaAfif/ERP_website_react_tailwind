@@ -89,7 +89,7 @@ function HeroHome() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 mt-5">
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 mt-5">
               <div className="flex text-[#5F7CDD] justify-center text-base font-semibold">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,7 @@ function HeroHome() {
                 </svg>
                 24 hours customer service for you
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Hero image */}
@@ -137,12 +137,12 @@ function HeroHome() {
               <div className="flex flex-col justify-center">
                 <img
                   className="mx-auto"
-                  src={HeroImage}
+                  src="/src/images/Untitled.png"
                   width="768"
                   height="432"
                   alt="Hero"
                 />
-                <svg
+                {/* <svg
                   className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
                   width="768"
                   height="432"
@@ -207,7 +207,7 @@ function HeroHome() {
                       <use fill="url(#hero-ill-e)" xlinkHref="#hero-ill-d" />
                     </g>
                   </g>
-                </svg>
+                </svg> */}
               </div>
               <button
                 className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg"
@@ -226,7 +226,7 @@ function HeroHome() {
                   <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" />
                   <path d="M10 17l6-5-6-5z" />
                 </svg>
-                <span className="ml-3">Watch the full video (2 min)</span>
+                <span className="ml-3">Watch the full video</span>
               </button>
             </div>
 
@@ -240,7 +240,9 @@ function HeroHome() {
               <div className="relative pb-9/16">
                 <iframe
                   className="absolute w-full h-full"
-                  src="https://player.vimeo.com/video/174002812"
+                  width="420"
+                  height="315"
+                  src="https://www.youtube.com/embed/ig-ETi27Vz0"
                   title="Video"
                   allowFullScreen
                 ></iframe>
