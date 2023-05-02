@@ -29,6 +29,15 @@ function Features() {
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
+          <div className=" mx-auto text-center pb-12 md:pb-20">
+            <h2 className="h2 mb-4 text-[#5F7CDD] lg:text-center text-center">
+              Try the New Adventure of Hiring with Us.
+            </h2>
+            <p className="text-xl text-white lg:text-center text-center">
+              Fast and accurate solutions using A.I for the hiring process. All
+              in one program.
+            </p>
+          </div>
           {/* Section header */}
           {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Explore the solutions</h1>
@@ -38,7 +47,6 @@ function Features() {
               cupidatat.
             </p>
           </div> */}
-
           {/* Section content */}
           {/* <div className="md:grid md:grid-cols-12 md:gap-6">
             Content
