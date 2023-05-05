@@ -371,7 +371,7 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
                           </a>
                         </NavLink>
                         <NavLink
-                          to="/headhunter"
+                          to="/autochecker"
                           className={({ isActive }) =>
                             isActive ? activeLink : normalLink
                           }
