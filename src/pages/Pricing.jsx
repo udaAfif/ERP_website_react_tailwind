@@ -1,5 +1,5 @@
 import HeroHomePricing from "../partials/HeroHomePricing";
-import Carousel from "../partials/Carousel";
+import CarouselPricing from "../partials/CarouselPricing";
 import FreeTrial from "./FreeTrial";
 
 const Pricing = () => {
@@ -11,7 +11,7 @@ const Pricing = () => {
           <FreeTrial />
         </div>
         <div className=" py-3 px-10">
-          <Carousel />
+          <CarouselPricing />
         </div>
       </main>
     </>

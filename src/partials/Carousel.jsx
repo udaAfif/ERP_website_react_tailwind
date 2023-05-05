@@ -106,14 +106,14 @@ const Carousel = () => {
               <span className="sr-only">Next</span>
             </button>
           </div> */}
-          <div className="flex justify-center">
+          <div className=" flex justify-center">
             <img
-              src="/src/images/Clients.png"
-              className="object-cover container "
+              src="/src/images/Frame 74.png"
+              className="object-cover container  "
             />
           </div>
           <div
-            className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-7xl my-3"
+            className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-7xl my-5"
             data-aos="zoom-y-out"
             data-aos-delay="300"
           >
@@ -122,7 +122,7 @@ const Carousel = () => {
             <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
               <img
                 src="/src/images/download.png"
-                className="w-80 h-48 mx-auto mb-3"
+                className="w-80 h-32 mx-auto mb-3"
               />
 
               <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
@@ -145,7 +145,7 @@ const Carousel = () => {
             <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
               <img
                 src="/src/images/Client_Samsung.png"
-                className="w-48 h-48 mx-auto mb-3"
+                className="w-32 h-32 mx-auto mb-3"
               />
 
               <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">

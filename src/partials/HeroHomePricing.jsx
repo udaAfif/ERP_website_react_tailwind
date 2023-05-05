@@ -56,12 +56,13 @@ function HeroHomePricing() {
                   Pricing
                 </p>
                 <h1
-                  className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 "
+                  className="text-5xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4 "
                   data-aos="zoom-y-out"
                 >
-                  Flexible Plan & Pricing, adjust as much as you like.{" "}
+                  Say goodbye to high recruitment costs with Checker and
+                  Hunters.
                 </h1>
-                <div className="max-w-3xl mx-auto">
+                {/* <div className="max-w-3xl mx-auto">
                   <p
                     className="text-xl text-white mb-8"
                     data-aos="zoom-y-out"
@@ -79,7 +80,7 @@ function HeroHomePricing() {
                       No Credit card required
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

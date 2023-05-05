@@ -64,13 +64,14 @@ const FreeTrial = () => {
         </svg>
 
         <h2 className="text-4xl text-center text-[#5F7CDD] font-semibold mb-5">
-          Start your 2 Months, free trial
+          Start to improve your recruitment workflow with Wecruit full package
+          recruitment solution.
         </h2>
-        <p className="text-2xl font-semibold text-gray-600 mb-12 text-center lg:mx-32">
+        {/* <p className="text-2xl font-semibold text-gray-600 mb-12 text-center lg:mx-32">
           Start improve your workflow with Wecruit solution. Wether it’s
           Autochecker or Headhunter. On us for your first 2 months, Yes 2 Month.
           No payment details required!
-        </p>
+        </p> */}
         <div
           className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
           data-aos="zoom-y-out"
@@ -81,7 +82,7 @@ const FreeTrial = () => {
               className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
               href="#0"
             >
-              Claim your free trial
+              Request demo for free now
               <svg
                 className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
                 viewBox="0 0 12 12"

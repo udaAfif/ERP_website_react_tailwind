@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import FreeTrial from "./FreeTrial";
-import Carousel from "../partials/Carousel";
+import CarouselAutoChecker from "../partials/carouselAutoChecker";
+import { Disclosure, Transition } from "@headlessui/react";
 
 function AutoChecker() {
   return (
@@ -11,32 +12,31 @@ function AutoChecker() {
         data-aos-delay="150"
       >
         <div className="">
-          <img src="/src/images/Autochcker.png" className="absolute -z-1 " />
-          <div className="p-10 ">
-            <div className="-mt-16">
-              <div className="w-full flex justify-center items-center flex-1 mt-20">
-                <div className="">
-                  <h1 className="text-[#000000] lg:text-white text-sm font-normal text-center">
-                    Wecruit Autochecker
-                  </h1>
-                  <h1 className="text-[#000000] lg:text-white text-5xl font-bold text-center">
-                    Quick and Easy solution <br /> to do background checking.
-                  </h1>
-                  <h3 className=" text-[#000000] lg:text-white text-xl mt-3 font-normal text-center">
-                    A reference check autopilot tool solution that combines IT
-                    technology, including emotional analysis and <br />{" "}
-                    infographic reports using Google’s artificial intelligence
-                    engine.
-                  </h3>
+          <img src="/src/images/Group 55 (2).png" className="absolute -z-1 " />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
+            <div className="p-10 ">
+              <div className="lg:mt-20 -mt-56">
+                <div className="w-full flex justify-center items-center flex-1 mt-[410px] md:mt-20 lg:mt-20">
+                  <div className="">
+                    {/* <h1 className="text-[#000000] lg:text-white text-sm font-normal">
+                      COMING SOON!
+                    </h1> */}
+                    <h1 className="text-[#000000] lg:text-black text-5xl font-bold">
+                      Quick and Easy solution to do reference check
+                    </h1>
+                    <h3 className=" text-[#000000] lg:text-black text-xl mt-3 font-normal ">
+                      An autopilot reference check tool for recruitment. You can
+                      start within 30 sec and save 70% of cost compare to market
+                      cost.
+                    </h3>
 
-                  <div class="container text-center mx-auto mt-10">
-                    <div class=" sm:inline-flex ">
-                      <div className="flex justify-center">
+                    <div class="container mx-auto mt-10">
+                      <div className="flex ">
                         <a
                           className="btn text-white bg-[#5F7CDD] hover:bg-blue-700 w-full mb-3 sm:w-auto sm:mb-0"
-                          href="#0"
+                          href="https://wa.me/6282123387686"
                         >
-                          Request a Demo
+                          Request Demo for free now
                           <svg
                             className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
                             viewBox="0 0 12 12"
@@ -72,9 +72,9 @@ function AutoChecker() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="pb-10 flex justify-center scale-150">
-            <img src="/src/images/smartmockups_ld2k9gbq-depan.png" />
+            <div className="p-10 justify-center scale-150 opacity-0">
+              <img src="/src/images/smartmockups_ld2miring-removebg-preview.png" />
+            </div>
           </div>
         </div>
 
@@ -92,15 +92,116 @@ function AutoChecker() {
               data-aos-delay="300"
             >
               {/* Section header */}
-              <div className="pb-12 md:pb-20">
+              <div className="pb-12 md:pb-10 -mt-80 md:mt-32 lg:mt-32">
                 <h2 className="text-[40px] font-bold text-center mb-4">
                   Why Wecruit Autochecker?
                 </h2>
                 <p className="font-normal text-xl text-center">
-                  A quick comparions with competitor (down below) shows that
-                  Wecruit Autochecker <br /> provides 90% better feature while
+                  A comparisons with competitor (down below) shows that Wecruit
+                  Autochecker <br /> provides 90% better feature while
                   maintaining 20% lower prices.
                 </p>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 pb-12 md:pb-10">
+                {/* left section */}
+                <div class="grid grid-cols-5">
+                  <div class=" pt-10 px-3 md:px-7 lg:px-7">
+                    <img src="/src/images/Frame 88.png" />
+                  </div>
+                  <div class="col-span-4">
+                    <div className="pt-10 text-left">
+                      <div className="">
+                        <div className="w-full flex justify-center items-center flex-1 ">
+                          <div className="">
+                            <h1 className="text-[#000000] lg:text-black text-2xl font-bold">
+                              Excellent
+                            </h1>
+                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                              Recruitment failure costs have been drastically
+                              reduced.
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* number 2 */}
+                  <div class=" pt-10 px-3 md:px-7 lg:px-7 mt-0 md:-mt-0 lg:-mt-0">
+                    <img src="/src/images/Frame 88-1.png" />
+                  </div>
+                  <div class="col-span-4 mt-0 md:-mt-0 lg:-mt-0">
+                    <div className="pt-10 text-left">
+                      <div className="">
+                        <div className="w-full flex justify-center items-center flex-1 ">
+                          <div className="">
+                            <h1 className="text-[#000000] lg:text-black text-2xl font-bold">
+                              Convenient
+                            </h1>
+                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                              With only one click, HR manager can conduct
+                              reference check for up to 960 people in a day at
+                              the same time.
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* end number 2 */}
+                  {/* number 3 */}
+                  <div class=" pt-10 px-3 md:px-7 lg:px-7 mt-0 md:-mt-0 lg:-mt-0">
+                    <img src="/src/images/Frame 88-2.png" />
+                  </div>
+                  <div class="col-span-4 mt-0 md:-mt-0 lg:-mt-0">
+                    <div className="pt-10 text-left">
+                      <div className="">
+                        <div className="w-full flex justify-center items-center flex-1 ">
+                          <div className="">
+                            <h1 className="text-[#000000] lg:text-black text-2xl font-bold">
+                              Safe
+                            </h1>
+                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                              It contains more than 3,000 actual talent
+                              verification project know how. Experience a safe
+                              and verified process that complies with the
+                              Personal Information Protection Act.
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* end number 3 */}
+                  {/* number 4 */}
+                  <div class=" pt-10 px-3 md:px-7 lg:px-7 mt-0 md:-mt-0 lg:-mt-0">
+                    <img src="/src/images/Frame 88-3.png" />
+                  </div>
+                  <div class="col-span-4 mt-0 md:-mt-0 lg:-mt-0">
+                    <div className="pt-10 text-left">
+                      <div className="">
+                        <div className="w-full flex justify-center items-center flex-1 ">
+                          <div className="">
+                            <h1 className="text-[#000000] lg:text-black text-2xl font-bold">
+                              Economic
+                            </h1>
+                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                              Were you burdened with the expensive reference
+                              check service cost? Experience a reputation
+                              inquiry at an amazing price of only 20% compared
+                              to the market price.
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* end number 4 */}
+                </div>
+                {/* end left section */}
+
+                <div className="p-10 md:p-12 lg:p-12 justify-center ">
+                  <img src="/src/images/Group 57.png" />
+                </div>
               </div>
               <img src="/src/images/Table.png" />
 
@@ -367,8 +468,269 @@ function AutoChecker() {
         </div>
         <div className="py-3 px-10">
           <FreeTrial />
+          <div
+            className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-7xl my-3"
+            data-aos="zoom-y-out"
+            data-aos-delay="300"
+          >
+            {" "}
+            {/* 1st item */}
+            <div className="relative  flex flex-col  p-6 bg-white rounded h-full ">
+              <h4 className=" text-2xl font-bold leading-snug tracking-tight mb-3 ">
+                FAQ
+              </h4>
+
+              <p className="text-gray-600 ">
+                We believe that education is key to creating a more sustainable
+                world. That's why we've compiled answers to the most common
+                questions about sustainability and our products.
+              </p>
+            </div>
+            {/* 2nd item */}
+            <div className="relative  flex flex-col p-6 bg-white rounded  h-full ">
+              <Disclosure>
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    What is Checker Auto? Why should I use Checker Auto?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  Checker Auto is an automated solution for candidate reference
+                  checks using Google A.I technology. Checker Auto is a reliable
+                  solution that streamlines the reference check process,
+                  reducing the workload for the HR division and minimizing bad
+                  hiring that can incur significant financial costs for the
+                  company.
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>How to use Checker Auto?</span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  ● Set up questionnaire <br />● Create project <br /> ● Obtain
+                  candidate's consent <br /> ● Collect responses from the
+                  referee <br /> ● Download the high-quality report result
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>What are the benefits of Checker Auto?</span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  ● Using Google AI technology can significantly improve the
+                  accuracy of validating prospective employees, by tracking
+                  whether the time, IP address, browser, and operating system{" "}
+                  <br /> ● Reference checking process allows for up to 10
+                  candidates to be checked simultaneously with just one click{" "}
+                  <br /> ● AI sentiment analysis help summarize the referee's
+                  response <br /> ● Reminder notification for referee and
+                  candidate
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>Why does Checker Auto use a questionnaire method?</span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  Checker Auto is questionnaire-based system because we want to
+                  upgrade from the manual phone-based system, which often
+                  encounters issues such as this activity can only be conducted
+                  during regular business hours, unanswered calls, unreliable
+                  information, and high costs for phone credit
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    What if candidates and referees haven't filled out the
+                    report yet?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  The system will automatically send notifications to both the
+                  candidate and the referee, requesting them to promptly fill
+                  out the provided form twice a day. In the event that the
+                  candidate fails to respond, the HR team will provide personal
+                  reminders via phone or WhatsApp. If the referee fails to
+                  respond within the allotted time frame, the HR team can
+                  replace them from the system, without necessitating a restart.
+                  The replacement referee will automatically receive the same
+                  questionnaire
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    Why Checker Auto is important to implement in a company
+                    during the recruitment process?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  Because auto checker has valid evidence that has been directly
+                  submitted by the candidate. If there are any violations and
+                  fraud that occur after the candidate is accepted into the
+                  company, then the candidate can be dismissed without incurring
+                  any penalty from the company
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    How to replace a referee when the project is already
+                    running?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  Firstly, click on the candidate's project details, then select
+                  'Modify' in the nominated referees information' section. Next,
+                  enter the details of the new referee candidate
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    How long does the system keep reminder notifications for
+                    candidates and referees?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  The system will periodically send notifications to the email
+                  address of the candidate and referee for up to 5 days,
+                  including weekends. The system will discontinue sending
+                  notifications if there is no response within 5 days. However,
+                  the HR team can still provide reminders by accessing the
+                  project details and selecting the 'resend' button in the
+                  'Questionnaire for nominated referees' column
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    What is a blind referee? How does the system work?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  A blind referee is a non-designated referee who is not
+                  recommended by the candidate, but is selected by one of the
+                  candidate's nominated referees. In this system, one of the
+                  referees is randomly asked to provide another referee's phone
+                  number from their previous workplace
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    How many questionnaires can be added for referees?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  The questionnaire for referees can be added as many as
+                  desired, but our recommendation is to have 7-8 questions,
+                  which is ideal for the referee
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    How long after starting the project will candidates receive
+                    notification emails? How about if the candidate has not
+                    received the email?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  The email will be sent immediately to the candidate. If it's
+                  not in the inbox, please take the following actions. <br />
+                  ● In case of Gmail, please check all mailboxes, including the
+                  spam box and the promotion box.
+                  <br />● If you enter a wrong e-mail address, please contact
+                  the HR manager or CHECKER customer service.
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    How long does it take for candidates and referees to
+                    complete the questionnaire?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  ● Candidate takes only about 5 minutes.
+                  <br />● Referee response will take approximately 10 minutes.
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    What is the answer model for referees? Can it be customized?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  There are three available answer models for the referees to
+                  choose from:
+                  <br />
+                  ● Long-answer question (The referee must enter at least 100
+                  characters)
+                  <br />
+                  ● Short-answer question (The referee must enter at least 10
+                  characters)
+                  <br />● Question (Optional- custom your needs).
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    Is it possible to set a deadline for completing reference
+                    checks for candidates and referees?
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  Actually, our system already provides reminders to complete
+                  the recruitment process promptly, and suggest responding to
+                  the questionnaires within 1-2 days. To add a note that will be
+                  sent to the candidate via email with a deadline specified by
+                  your company, follow these steps: When you start the project,
+                  enter the candidate information, then select the "Special
+                  Guide" button and provide a description with the deadline for
+                  the candidate to complete the questionnaires
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>How do I change my password?</span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  ● Access the web app https://gchecker.wecruitpro.com/ <br />●
+                  Click on the 'Find Password' button before logging in.
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>Can the questionnaire be reused repeatedly?</span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  Once saved, you won't need to repeat the process. You can use
+                  the questionnaire as many times as you need to
+                </Disclosure.Panel>
+              </Disclosure>
+              <Disclosure as="div" className="mt-2">
+                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-blue-100 px-4 py-2 text-left text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                  <span>
+                    If you require further clarification or have any concerns,
+                    please do not hesitate to contact us at your convenience
+                  </span>
+                </Disclosure.Button>
+                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                  Please let us know if you are available for further
+                  discussion, or alternatively, you may contact our Business
+                  Development team, at +62 813 1484 6993, Monday - Friday from
+                  08.00 AM to 17.00 PM.
+                </Disclosure.Panel>
+              </Disclosure>
+            </div>
+          </div>
           <div className="lg:mt-28 mt-0">
-            <Carousel />
+            <CarouselAutoChecker />
           </div>
         </div>
       </div>

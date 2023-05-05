@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import HeroImage from "../images/hero-image.png";
+import { NavLink } from "react-router-dom";
 
 function Features() {
   const [tab, setTab] = useState(1);
@@ -281,14 +282,14 @@ function Features() {
               {" "}
               <div className="">
                 <p
-                  className="text-[#5F7CDD] justify-center text-[40px] font-bold"
+                  className="text-[#ffff] justify-center text-[40px] font-bold"
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >
                   AutoChecker
                 </p>
                 <p
-                  className="mt-5 text-white leading-8 font-semibold text-2xl "
+                  className="mt-5 text-white leading-8 font-normal text-2xl "
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >
@@ -300,24 +301,26 @@ function Features() {
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >
-                  <div>
-                    <a
-                      className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                      href="#0"
-                    >
-                      About AutoChecker
-                      <svg
-                        className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
+                  <NavLink to="/autochecker">
+                    <div>
+                      <a
+                        className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                        href="#0"
                       >
-                        <path
-                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                          fillRule="nonzero"
-                        />
-                      </svg>
-                    </a>
-                  </div>
+                        About AutoChecker
+                        <svg
+                          className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
+                          viewBox="0 0 12 12"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
+                            fillRule="nonzero"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -326,14 +329,14 @@ function Features() {
               {" "}
               <div className="">
                 <p
-                  className="text-[#5F7CDD] justify-center text-[40px] font-bold"
+                  className="text-[#ffff] justify-center text-[40px] font-bold"
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >
                   Headhunter
                 </p>
                 <p
-                  className="mt-5 text-white leading-8 font-semibold text-2xl "
+                  className="mt-5 text-white leading-8 font-normal text-2xl "
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >
@@ -345,24 +348,27 @@ function Features() {
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >
-                  <div>
-                    <a
-                      className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                      href="#0"
-                    >
-                      About Headhunter
-                      <svg
-                        className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
+                  <NavLink to="/headhunter">
+                    {" "}
+                    <div>
+                      <a
+                        className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                        href="#0"
                       >
-                        <path
-                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                          fillRule="nonzero"
-                        />
-                      </svg>
-                    </a>
-                  </div>
+                        About Headhunter
+                        <svg
+                          className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
+                          viewBox="0 0 12 12"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
+                            fillRule="nonzero"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </NavLink>
                 </div>
               </div>
             </div>

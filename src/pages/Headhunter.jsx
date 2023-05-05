@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FreeTrial from "./FreeTrial";
-import Carousel from "../partials/Carousel";
+import CarouselHeadhunter from "../partials/CarouselHeadhunter";
 
 function HeadHunter() {
   return (
@@ -11,35 +11,34 @@ function HeadHunter() {
         data-aos-delay="150"
       >
         <div className="">
-          <img src="/src/images/Headhunter.png" className="absolute -z-1 " />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div className="p-10 flex justify-center scale-150">
+          <img src="/src/images/Group 56 (2).png" className="absolute -z-1 " />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
+            <div className="p-10 justify-center scale-150 opacity-0">
               <img src="/src/images/smartmockups_ld2miring-removebg-preview.png" />
             </div>
-            <div className="p-10">
-              <div className="lg:mt-20 -mt-16">
+            <div className="p-10 ">
+              <div className="lg:mt-20 -mt-56">
                 <div className="w-full flex justify-center items-center flex-1 mt-20">
                   <div className="">
                     <h1 className="text-[#000000] lg:text-white text-sm font-normal">
                       Wecruit Headhunter
                     </h1>
                     <h1 className="text-[#000000] lg:text-white text-5xl font-bold">
-                      Korea #1 headhunting <br />
-                      service platform
+                      Korea largest Headhunting brokerage platform.
                     </h1>
-                    <h3 className=" text-[#000000] lg:text-white text-xl mt-3 font-normal ">
-                      A reference check autopilot tool solution that combines IT
-                      technology, including emotional analysis and infographic
-                      reports using Google’s artificial intelligence engine.
-                    </h3>
+                    {/* <h3 className=" text-[#000000] lg:text-white text-xl mt-3 font-normal ">
+                      Headhunter platform which solves complex and inefficient
+                      communication between HR and headhunters more convenient
+                      and faster.
+                    </h3> */}
 
                     <div class="container mx-auto mt-10">
                       <div className="flex ">
                         <a
                           className="btn text-white bg-[#5F7CDD] hover:bg-blue-700 w-full mb-3 sm:w-auto sm:mb-0"
-                          href="#0"
+                          href="https://wa.me/6282123387686"
                         >
-                          Request a Demo
+                          Request Demo
                           <svg
                             className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
                             viewBox="0 0 12 12"
@@ -77,13 +76,12 @@ function HeadHunter() {
             </div>
           </div>
         </div>
-
         <section className="relative">
           <div
             className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0  pointer-events-none"
             aria-hidden="true"
           ></div>
-          <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] transform translate-y-1/2"></div>
+          {/* <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] transform translate-y-1/2"></div> */}
 
           <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
             <div
@@ -92,14 +90,17 @@ function HeadHunter() {
               data-aos-delay="300"
             >
               {/* Section header */}
-              <div className="pb-12 md:pb-20">
-                <p className="text-xl lg:text-white text-[#5F7CDD] mb-3 font-semibold">
+              <div className="pb-12 md:pb-20 -mt-10 md:mt-16 lg:mt-16">
+                {/* <p className="text-xl lg:text-[#5F7CDD] text-[#5F7CDD] mb-3 font-semibold">
                   WHAT IS HEADHUNTER by WECRUIT
-                </p>
+                </p> */}
                 <h2 className="h2 mb-4 ">
-                  A Quick and Easy solution <br /> for long and tiring
-                  recruitment process.
+                  Hunters is platform where HR Manager and Headhunters meet.
                 </h2>
+                <h3 className=" text-[#000000] lg:text-black text-xl mt-3 font-normal ">
+                  Hunters solves complex and inefficient communication between
+                  HR and headhunters. Make it more convenient and faster.
+                </h3>
               </div>
 
               {/* Items */}
@@ -109,7 +110,7 @@ function HeadHunter() {
                 data-aos-delay="300"
               >
                 {/* 1st item */}
-                <div className="relative flex flex-col  p-6  bg-white rounded shadow-xl">
+                <div className="relative flex flex-col  p-6  bg-white rounded shadow-lg hover:shadow-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -135,7 +136,7 @@ function HeadHunter() {
                 </div>
 
                 {/* 2nd item */}
-                <div className="relative flex flex-col  p-6  bg-white rounded shadow-xl">
+                <div className="relative flex flex-col  p-6  bg-white rounded shadow-lg hover:shadow-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -162,7 +163,7 @@ function HeadHunter() {
                 </div>
 
                 {/* 3rd item */}
-                <div className="relative flex flex-col  p-6  bg-white rounded shadow-xl">
+                <div className="relative flex flex-col  p-6  bg-white rounded shadow-lg hover:shadow-2xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -191,15 +192,14 @@ function HeadHunter() {
             </div>
           </div>
         </section>
-
-        <div className="bg-black">
+        {/* <div className="bg-black">
           <div className=" relative max-w-6xl mx-auto py-10 px-4 sm:px-6">
             <div
               className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-4  md:max-w-2xl lg:max-w-none"
               data-aos="zoom-y-out"
               data-aos-delay="300"
             >
-              {/* 1st item */}
+              
               <div className="relative items-center flex flex-col  p-6  ">
                 <svg
                   width="79"
@@ -247,7 +247,7 @@ function HeadHunter() {
                 </p>
               </div>
 
-              {/* 2nd item */}
+             
               <div className="relative items-center flex flex-col p-3  ">
                 <svg
                   width="90"
@@ -305,7 +305,7 @@ function HeadHunter() {
                 </p>
               </div>
 
-              {/* 3rd item */}
+             
               <div className="relative items-center flex flex-col  p-3  ">
                 <svg
                   width="90"
@@ -367,7 +367,7 @@ function HeadHunter() {
                 </p>
               </div>
 
-              {/* 4rd item */}
+           
               <div className="relative items-center flex flex-col  p-3  ">
                 <svg
                   width="90"
@@ -416,11 +416,317 @@ function HeadHunter() {
               </div>
             </div>
           </div>
+        </div> */}
+        <h4 className="text-2xl font-semibold mb-4 leading-snug tracking-tight  text-center text-black z-20">
+          Advantage choosing Autochecker.
+        </h4>
+        <p className="text-gray-600 text-center px-10 md:px-36 lg:px-36 ">
+          Say goodbye to the hassle of manual reference checks with Auto Checker
+          - the efficient and cost-effective autopilot reference check tool for
+          recruitment. With our user-friendly platform, save up to 70% compared
+          to market rates.
+        </p>
+        <div className="bg-white">
+          <div className=" relative max-w-6xl mx-auto py-10 px-4 sm:px-6">
+            <div
+              className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2  md:max-w-2xl lg:max-w-none"
+              data-aos="zoom-y-out"
+              data-aos-delay="300"
+            >
+              <div className="relative flex flex-col  p-6  shadow-xl hover:shadow-lg hover:shadow-[#5F7CDD] hover:transition-shadow rounded">
+                <h4 className="text-2xl font-semibold mb-4 leading-snug tracking-tight  text-center text-black">
+                  For HR Manager
+                </h4>
+                {/* left section */}
+                <div class="grid grid-cols-5">
+                  <div class=" pt-10 px-3 md:px-7 lg:px-7">
+                    <img src="/src/images/Frame 88.png" />
+                  </div>
+                  <div class="col-span-4">
+                    <div className="pt-10 text-left">
+                      <div className="">
+                        <div className="w-full flex justify-center items-center flex-1 ">
+                          <div className="">
+                            <h1 className="text-[#000000] lg:text-black text-xl font-bold">
+                              Excellent Recruitment
+                            </h1>
+                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                              Find best talents from headhunters in a quick and
+                              easy way.
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* number 2 */}
+                  <div class=" pt-10 px-3 md:px-7 lg:px-7 mt-0 md:-mt-0 lg:-mt-0">
+                    <img src="/src/images/Frame 88-1.png" />
+                  </div>
+                  <div class="col-span-4 mt-0 md:-mt-0 lg:-mt-0">
+                    <div className="pt-10 text-left">
+                      <div className="">
+                        <div className="w-full flex justify-center items-center flex-1 ">
+                          <div className="">
+                            <h1 className="text-[#000000] lg:text-black text-xl font-bold">
+                              Convenient Recruitment
+                            </h1>
+                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                              Still receive a lot of emails from headhunter?
+                              Reduce work and increase communication
+                              effectiveness in one-click.
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* end number 2 */}
+                  {/* number 3 */}
+                  <div class=" pt-10 px-3 md:px-7 lg:px-7 mt-0 md:-mt-0 lg:-mt-0">
+                    <img src="/src/images/Frame 88-2.png" />
+                  </div>
+                  <div class="col-span-4 mt-0 md:-mt-0 lg:-mt-0">
+                    <div className="pt-10 text-left">
+                      <div className="">
+                        <div className="w-full flex justify-center items-center flex-1 ">
+                          <div className="">
+                            <h1 className="text-[#000000] lg:text-black text-xl font-bold">
+                              Economic Recruitment
+                            </h1>
+                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                              Hunters is completely free until you hired a
+                              talent. Access to candidates resume free and
+                              reduce recruitment cost.
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* end number 3 */}
+                </div>
+                {/* end left section */}
+              </div>
+              <div className="relative flex flex-col  p-6  shadow-xl hover:shadow-lg hover:shadow-[#5F7CDD] hover:transition-shadow rounded">
+                <h4 className="text-2xl font-semibold mb-4 leading-snug tracking-tight  text-center text-black">
+                  For Headhunter
+                </h4>
+                {/* left section */}
+                <div class="grid grid-cols-5">
+                  <div class=" pt-10 px-3 md:px-7 lg:px-7">
+                    <img src="/src/images/Frame 88.png" />
+                  </div>
+                  <div class="col-span-4">
+                    <div className="pt-10 text-left">
+                      <div className="">
+                        <div className="w-full flex justify-center items-center flex-1 ">
+                          <div className="">
+                            <h1 className="text-[#000000] lg:text-black text-xl font-bold">
+                              Increasing Income
+                            </h1>
+                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                              Headhunter income increase up to 29%, and sales
+                              marketing expense decrease up to 67%.*
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* number 2 */}
+                  <div class=" pt-10 px-3 md:px-7 lg:px-7 mt-0 md:-mt-0 lg:-mt-0">
+                    <img src="/src/images/Frame 88-1.png" />
+                  </div>
+                  <div class="col-span-4 mt-0 md:-mt-0 lg:-mt-0">
+                    <div className="pt-10 text-left">
+                      <div className="">
+                        <div className="w-full flex justify-center items-center flex-1 ">
+                          <div className="">
+                            <h1 className="text-[#000000] lg:text-black text-xl font-bold">
+                              Easily find project
+                            </h1>
+                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                              Find hundreds projects in Hunters, easy to
+                              discover customers.
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* end number 2 */}
+                </div>
+                <h1 className="mt-28">
+                  * 90& of fee will be paid to Headhunter after project success.{" "}
+                  <br /> If headhunter registered as Existing Search Firm, 100%
+                  will be paid without brokerage fee
+                </h1>
+
+                {/* end left section */}
+              </div>
+            </div>
+          </div>
         </div>
+
+        <h4 className="text-2xl font-semibold mb-4 leading-snug tracking-tight  text-center text-black z-20">
+          Unveil the power of Headhunters and unlock <br /> new possibilities.
+          See how it works!
+        </h4>
+        <p className="text-gray-600 text-center px-10 md:px-36 lg:px-36 ">
+          Revolutionize your recruitment game with Headhunters - The ultimate
+          solution for finding top talent. Explore our innovative features and
+          experience a smarter, faster, and more efficient way to hire. Start
+          building your dream team today with Headhunters.
+        </p>
+
+        <div class="flex justify-center mx-5 py-10 md:mx-20 lg:mx-20">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="relative flex flex-col  p-6  shadow-xl hover:shadow-lg hover:shadow-[#5F7CDD] hover:transition-shadow rounded ">
+              {/* left section */}
+              <div class="grid grid-cols-5">
+                <div class=" pt-10 px-3 ">
+                  <img src="/src/images/Frame 88.png" />
+                </div>
+                <div class="col-span-4">
+                  <div className="pt-10 text-left">
+                    <div className="">
+                      <div className="w-full flex justify-center items-center flex-1 ">
+                        <div className="">
+                          <h1 className="text-[#000000] lg:text-black text-xl font-bold">
+                            Quick and Easy
+                          </h1>
+                          <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                            Only with one click, you can easily manage
+                            communication with headhunters, access and manage
+                            candidates resumes, and manage the recruitment
+                            process until hired.
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* end left section */}
+            </div>
+            <div className="relative flex flex-col  p-6  shadow-xl hover:shadow-lg hover:shadow-[#5F7CDD] hover:transition-shadow rounded ">
+              {/* left section */}
+              <div class="grid grid-cols-5">
+                <div class=" pt-10 px-3 ">
+                  <img src="/src/images/Frame 88-1.png" />
+                </div>
+                <div class="col-span-4">
+                  <div className="pt-10 text-left">
+                    <div className="">
+                      <div className="w-full flex justify-center items-center flex-1 ">
+                        <div className="">
+                          <h1 className="text-[#000000] lg:text-black text-xl font-bold">
+                            Accurate
+                          </h1>
+                          <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                            See the performance of headhunters and Hunters will
+                            help you find the right headhunter.
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* end left section */}
+            </div>
+            <div className="relative flex flex-col  p-6  shadow-xl hover:shadow-lg hover:shadow-[#5F7CDD] hover:transition-shadow rounded ">
+              {/* left section */}
+              <div class="grid grid-cols-5">
+                <div class=" pt-10 px-3 ">
+                  <img src="/src/images/Frame 88-2.png" />
+                </div>
+                <div class="col-span-4">
+                  <div className="pt-10 text-left">
+                    <div className="">
+                      <div className="w-full flex justify-center items-center flex-1 ">
+                        <div className="">
+                          <h1 className="text-[#000000] lg:text-black text-xl font-bold">
+                            Save more!
+                          </h1>
+                          <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                            With comission fee bidding method, company can save
+                            budget by 3 M won per year.
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* end left section */}
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-center mt-4 mx-5 md:mx-56 lg:mx-56">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="relative flex flex-col  p-6  shadow-xl hover:shadow-lg hover:shadow-[#5F7CDD] hover:transition-shadow rounded ">
+              {/* left section */}
+              <div class="grid grid-cols-5">
+                <div class=" pt-10 px-3 ">
+                  <img src="/src/images/Frame 88-3.png" />
+                </div>
+                <div class="col-span-4">
+                  <div className="pt-10 text-left">
+                    <div className="">
+                      <div className="w-full flex justify-center items-center flex-1 ">
+                        <div className="">
+                          <h1 className="text-[#000000] lg:text-black text-xl font-bold">
+                            Transparent
+                          </h1>
+                          <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                            Pay after the hiring project success using Hunters
+                            safe payment system.
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* end left section */}
+            </div>
+            <div className="relative flex flex-col  p-6  shadow-xl hover:shadow-lg hover:shadow-[#5F7CDD] hover:transition-shadow rounded ">
+              {/* left section */}
+              <div class="grid grid-cols-5">
+                <div class=" pt-10 px-3 ">
+                  <img src="/src/images/Frame 88 (1).png" />
+                </div>
+                <div class="col-span-4">
+                  <div className="pt-10 text-left">
+                    <div className="">
+                      <div className="w-full flex justify-center items-center flex-1 ">
+                        <div className="">
+                          <h1 className="text-[#000000] lg:text-black text-xl font-bold">
+                            Fair
+                          </h1>
+                          <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                            A win-win headhunting brokerage platform for
+                            everyone (Tax invoice (type A) or personal income
+                            withholding tax (type B) are both acceptable).
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* end left section */}
+            </div>
+          </div>
+        </div>
+
         <div className="py-3 px-10">
-          <FreeTrial />
+          {/* <FreeTrial /> */}
           <div className="lg:mt-28 mt-0">
-            <Carousel />
+            <CarouselHeadhunter />
           </div>
         </div>
       </div>
