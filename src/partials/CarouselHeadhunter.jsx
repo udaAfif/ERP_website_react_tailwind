@@ -59,7 +59,8 @@ const CarouselHeadhunter = () => {
         </h2>
         <p className="text-xl text-gray-600 mb-12 text-center">
           Used by more than 20+ big and well-known companies across Korea and
-          now is Available in Asia. So what are you waiting for? Do demo now!
+          now is Available in Asia.
+          <br /> So what are you waiting for? Do demo now!
         </p>
         <div className="relative overflow-hidden ">
           {/* <div className="flex justify-between absolute top left w-full h-full">
@@ -106,7 +107,7 @@ const CarouselHeadhunter = () => {
               <span className="sr-only">Next</span>
             </button>
           </div> */}
-          <div className=" flex justify-center mx-0 md:mx-24 lg:mx-24">
+          <div className=" flex justify-center mx-0 lg:mx-32">
             <img
               src="/src/images/Frame 74 (3).png"
               className="object-cover container mb-0 lg:mb-20"
@@ -115,27 +116,27 @@ const CarouselHeadhunter = () => {
 
           <div class="flex justify-center mx-5 py-10 md:mx-20 lg:mx-20">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
+              <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
                 <img
                   src="/src/images/hanwha.png"
-                  className="w-80 h-64 mx-auto mb-3"
+                  className="w-64 h-64 mx-auto mb-3"
                 />
 
                 <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
                   Hanhwa Systems
                 </h4>
                 <h4 className=" text-base font-semibold leading-snug tracking-tight mb-3 text-center">
-                  Work-efficiency is growing more than 300%. There is no reason
-                  not to use this platform as HR perspective.
+                  Work-efficiency is growing more than 300%. There is no <br />{" "}
+                  reason not to use this platform as HR perspective.
                 </h4>
                 <p className="text-gray-600 text-center ">
                   Assistant Manager, Hwan-seok, Choi
                 </p>
               </div>
-              <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
+              <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
                 <img
                   src="/src/images/Mask group.png"
-                  className="w-80 h-64 mx-auto mb-3"
+                  className="w-64 h-64 mx-auto mb-3"
                 />
 
                 <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
@@ -143,6 +144,7 @@ const CarouselHeadhunter = () => {
                 </h4>
                 <h4 className=" text-base font-semibold leading-snug tracking-tight mb-3 text-center">
                   Through this platform, my company already hired 2 people.
+                  <br />
                   Another person is waiting for admission.
                 </h4>
                 <p className="text-gray-600 text-center ">
@@ -154,7 +156,7 @@ const CarouselHeadhunter = () => {
 
           <div class="flex justify-center mb-4 mx-5 md:mx-56 lg:mx-56">
             <div class="grid grid-cols-1 md:grid-cols-1 ">
-              <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
+              <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
                 <img
                   src="/src/images/Client_Samsung.png"
                   className="w-64 h-64 mx-auto mb-3"

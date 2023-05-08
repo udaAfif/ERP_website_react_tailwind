@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FreeTrial from "./FreeTrial";
+import FreeTrialAutoChekcer from "./FreeTrialAutoChecker";
 import CarouselAutoChecker from "../partials/carouselAutoChecker";
 import { Disclosure, Transition } from "@headlessui/react";
 
@@ -17,7 +17,7 @@ function AutoChecker() {
             <div className="p-10 ">
               <div className="lg:mt-20 -mt-56">
                 <div className="w-full flex justify-center items-center flex-1 mt-[410px] md:mt-20 lg:mt-20">
-                  <div className="">
+                  <div className="ml-0 lg:ml-11">
                     {/* <h1 className="text-[#000000] lg:text-white text-sm font-normal">
                       COMING SOON!
                     </h1> */}
@@ -92,7 +92,7 @@ function AutoChecker() {
               data-aos-delay="300"
             >
               {/* Section header */}
-              <div className="pb-12 md:pb-10 -mt-80 md:mt-32 lg:mt-32">
+              <div className="pb-12 md:pb-10 -mt-80 md:mt-32 lg:mt-96">
                 <h2 className="text-[40px] font-bold text-center mb-4">
                   Why Wecruit Autochecker?
                 </h2>
@@ -293,7 +293,7 @@ function AutoChecker() {
                   </tbody>
                 </table>
               </div> */}
-              <div className="text-center items-center sm:inline-flex mt-5">
+              <div className="text-center items-center sm:inline-flex mt-10">
                 <div className="bg-[#5F7CDD] rounded-lg p-2 text-white text-sm">
                   <button>Download AI report</button>
                 </div>
@@ -400,9 +400,8 @@ function AutoChecker() {
                   </p>
                 </div>
                 <p className="text-[20px] font-normal lg:ml-16 lg:text-left  text-center text-white">
-                  Reference check is Autochecker by Wecruit is safe and secure.
-                  Wecruit’s experience with over 3.000 project will cover
-                  everything.
+                  Autochecker by Wecruit is safe and secure. Wecruit’s
+                  experience with over 3.000 project will cover everything.
                 </p>
                 <p className="mt-3 text-[14px] font-normal lg:ml-16 lg:text-left  text-center text-white">
                   * Orientation video will provided <br /> * The reference check
@@ -421,14 +420,14 @@ function AutoChecker() {
                     4
                   </div>
                   <p className="text-[36px] font-bold ml-5 text-white text-center">
-                    Recommender Response
+                    Referee Response
                   </p>
                 </div>
                 <p className="text-[20px] font-normal lg:ml-16 lg:text-left  text-center text-white">
-                  "After the Resource Person agrees to participate, the Checker
-                  will send a questionnaire. After that, the Resource Person's
-                  answers will be presented with high quality & the right
-                  quantity by the Checker."
+                  After a Referee agrees to participate, Autochecker will send a
+                  questionnaire. After that, the Referee's answers will be
+                  presented with high quality & the right quantity by
+                  Autochecker.
                 </p>
               </div>
               {/* 8rd item */}
@@ -467,7 +466,10 @@ function AutoChecker() {
           </div>
         </div>
         <div className="py-3 px-10">
-          <FreeTrial />
+          <div className="lg:mt-28 mt-0">
+            <CarouselAutoChecker />
+          </div>
+          <FreeTrialAutoChekcer />
           <div
             className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-7xl my-3"
             data-aos="zoom-y-out"
@@ -476,11 +478,11 @@ function AutoChecker() {
             {" "}
             {/* 1st item */}
             <div className="relative  flex flex-col  p-6 bg-white rounded h-full ">
-              <h4 className=" text-2xl font-bold leading-snug tracking-tight mb-3 ">
+              <h4 className=" text-4xl font-bold leading-snug tracking-tight mb-3 ">
                 FAQ
               </h4>
 
-              <p className="text-gray-600 ">
+              <p className="text-gray-600 leading-9">
                 We believe that education is key to creating a more sustainable
                 world. That's why we've compiled answers to the most common
                 questions about sustainability and our products.
@@ -728,9 +730,6 @@ function AutoChecker() {
                 </Disclosure.Panel>
               </Disclosure>
             </div>
-          </div>
-          <div className="lg:mt-28 mt-0">
-            <CarouselAutoChecker />
           </div>
         </div>
       </div>

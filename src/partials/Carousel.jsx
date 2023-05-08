@@ -107,7 +107,7 @@ const Carousel = () => {
               <span className="sr-only">Next</span>
             </button>
           </div> */}
-          <div className=" flex justify-center">
+          <div className=" flex justify-center mx-0 lg:mx-32">
             <img
               src="/src/images/Frame 74.png"
               className="object-cover container  mb-0 lg:mb-20"
@@ -120,10 +120,10 @@ const Carousel = () => {
           >
             {" "}
             {/* 1st item */}
-            <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
+            <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
               <img
                 src="/src/images/hanwha.png"
-                className="w-80 h-64 mx-auto mb-3 "
+                className="w-64 h-64 mx-auto mb-3 "
               />
 
               <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
@@ -143,7 +143,7 @@ const Carousel = () => {
               </p>
             </div>
             {/* 2nd item */}
-            <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
+            <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
               <img
                 src="/src/images/Client_Samsung.png"
                 className="w-64 h-64 mx-auto mb-3"

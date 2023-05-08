@@ -90,7 +90,10 @@ function HeadHunter() {
               data-aos-delay="300"
             >
               {/* Section header */}
-              <div className="pb-12 md:pb-20 -mt-10 md:mt-16 lg:mt-16">
+              <div
+                className="pb-12 md:pb-20 -mt-10 md:mt-16 lg:mt-44
+              "
+              >
                 {/* <p className="text-xl lg:text-[#5F7CDD] text-[#5F7CDD] mb-3 font-semibold">
                   WHAT IS HEADHUNTER by WECRUIT
                 </p> */}
@@ -111,20 +114,10 @@ function HeadHunter() {
               >
                 {/* 1st item */}
                 <div className="relative flex flex-col  p-6  bg-white rounded shadow-lg hover:shadow-2xl">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
+                  <img
+                    src="/src/images/checklisst.png"
                     className="w-12 h-12 text-[#0095FF] mb-5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M4.5 12.75l6 6 9-13.5"
-                    />
-                  </svg>
+                  />
 
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-3 ">
                     Easy to use
@@ -137,20 +130,10 @@ function HeadHunter() {
 
                 {/* 2nd item */}
                 <div className="relative flex flex-col  p-6  bg-white rounded shadow-lg hover:shadow-2xl">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
+                  <img
+                    src="/src/images/dollar.png"
                     className="w-12 h-12 text-[#0095FF] mb-5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
+                  />
 
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-3 ">
                     Affordable
@@ -164,20 +147,10 @@ function HeadHunter() {
 
                 {/* 3rd item */}
                 <div className="relative flex flex-col  p-6  bg-white rounded shadow-lg hover:shadow-2xl">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="currentColor"
+                  <img
+                    src="/src/images/people.png"
                     className="w-12 h-12 text-[#0095FF] mb-5"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"
-                    />
-                  </svg>
+                  />
 
                   <h4 className="text-xl font-bold leading-snug tracking-tight mb-3 ">
                     All in One Place
@@ -417,14 +390,14 @@ function HeadHunter() {
             </div>
           </div>
         </div> */}
-        <h4 className="text-2xl font-semibold mb-4 leading-snug tracking-tight  text-center text-black z-20">
+        <h4 className="text-4xl font-bold mb-4 leading-snug tracking-tight  text-center text-black z-20">
           Advantage choosing Autochecker.
         </h4>
         <p className="text-gray-600 text-center px-10 md:px-36 lg:px-36 ">
           Say goodbye to the hassle of manual reference checks with Auto Checker
-          - the efficient and cost-effective autopilot reference check tool for
-          recruitment. With our user-friendly platform, save up to 70% compared
-          to market rates.
+          - the efficient and cost-effective autopilot
+          <br /> reference check tool for recruitment. With our user-friendly
+          platform, save up to 70% compared to market rates.
         </p>
         <div className="bg-white">
           <div className=" relative max-w-6xl mx-auto py-10 px-4 sm:px-6">
@@ -450,7 +423,7 @@ function HeadHunter() {
                             <h1 className="text-[#000000] lg:text-black text-xl font-bold">
                               Excellent Recruitment
                             </h1>
-                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                            <h3 className=" text-[#000000] lg:text-black text-base mt-3 font-normal ">
                               Find best talents from headhunters in a quick and
                               easy way.
                             </h3>
@@ -471,7 +444,7 @@ function HeadHunter() {
                             <h1 className="text-[#000000] lg:text-black text-xl font-bold">
                               Convenient Recruitment
                             </h1>
-                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                            <h3 className=" text-[#000000] lg:text-black text-base mt-3 font-normal ">
                               Still receive a lot of emails from headhunter?
                               Reduce work and increase communication
                               effectiveness in one-click.
@@ -494,7 +467,7 @@ function HeadHunter() {
                             <h1 className="text-[#000000] lg:text-black text-xl font-bold">
                               Economic Recruitment
                             </h1>
-                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                            <h3 className=" text-[#000000] lg:text-black text-base mt-3 font-normal ">
                               Hunters is completely free until you hired a
                               talent. Access to candidates resume free and
                               reduce recruitment cost.
@@ -525,7 +498,7 @@ function HeadHunter() {
                             <h1 className="text-[#000000] lg:text-black text-xl font-bold">
                               Increasing Income
                             </h1>
-                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                            <h3 className=" text-[#000000] lg:text-black text-base mt-3 font-normal ">
                               Headhunter income increase up to 29%, and sales
                               marketing expense decrease up to 67%.*
                             </h3>
@@ -546,7 +519,7 @@ function HeadHunter() {
                             <h1 className="text-[#000000] lg:text-black text-xl font-bold">
                               Easily find project
                             </h1>
-                            <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                            <h3 className=" text-[#000000] lg:text-black text-base mt-3 font-normal ">
                               Find hundreds projects in Hunters, easy to
                               discover customers.
                             </h3>
@@ -557,7 +530,7 @@ function HeadHunter() {
                   </div>
                   {/* end number 2 */}
                 </div>
-                <h1 className="mt-28">
+                <h1 className="mt-28 text-base">
                   * 90& of fee will be paid to Headhunter after project success.{" "}
                   <br /> If headhunter registered as Existing Search Firm, 100%
                   will be paid without brokerage fee
@@ -569,15 +542,15 @@ function HeadHunter() {
           </div>
         </div>
 
-        <h4 className="text-2xl font-semibold mb-4 leading-snug tracking-tight  text-center text-black z-20">
+        <h4 className="text-4xl font-bold mb-4 leading-snug tracking-tight  text-center text-black z-20">
           Unveil the power of Headhunters and unlock <br /> new possibilities.
           See how it works!
         </h4>
         <p className="text-gray-600 text-center px-10 md:px-36 lg:px-36 ">
           Revolutionize your recruitment game with Headhunters - The ultimate
-          solution for finding top talent. Explore our innovative features and
-          experience a smarter, faster, and more efficient way to hire. Start
-          building your dream team today with Headhunters.
+          solution for finding top talent. Explore our innovative features
+          <br /> and experience a smarter, faster, and more efficient way to
+          hire. Start building your dream team today with Headhunters.
         </p>
 
         <div class="flex justify-center mx-5 py-10 md:mx-20 lg:mx-20">
@@ -596,7 +569,7 @@ function HeadHunter() {
                           <h1 className="text-[#000000] lg:text-black text-xl font-bold">
                             Quick and Easy
                           </h1>
-                          <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                          <h3 className=" text-[#000000] lg:text-black text-base mt-3 font-normal ">
                             Only with one click, you can easily manage
                             communication with headhunters, access and manage
                             candidates resumes, and manage the recruitment
@@ -624,7 +597,7 @@ function HeadHunter() {
                           <h1 className="text-[#000000] lg:text-black text-xl font-bold">
                             Accurate
                           </h1>
-                          <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                          <h3 className=" text-[#000000] lg:text-black text-base mt-3 font-normal ">
                             See the performance of headhunters and Hunters will
                             help you find the right headhunter.
                           </h3>
@@ -650,7 +623,7 @@ function HeadHunter() {
                           <h1 className="text-[#000000] lg:text-black text-xl font-bold">
                             Save more!
                           </h1>
-                          <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                          <h3 className=" text-[#000000] lg:text-black text-base mt-3 font-normal ">
                             With comission fee bidding method, company can save
                             budget by 3 M won per year.
                           </h3>
@@ -670,7 +643,7 @@ function HeadHunter() {
             <div className="relative flex flex-col  p-6  shadow-xl hover:shadow-lg hover:shadow-[#5F7CDD] hover:transition-shadow rounded ">
               {/* left section */}
               <div class="grid grid-cols-5">
-                <div class=" pt-10 px-3 ">
+                <div class=" pt-10 px-3 lg:px-5">
                   <img src="/src/images/Frame 88-3.png" />
                 </div>
                 <div class="col-span-4">
@@ -681,7 +654,7 @@ function HeadHunter() {
                           <h1 className="text-[#000000] lg:text-black text-xl font-bold">
                             Transparent
                           </h1>
-                          <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                          <h3 className=" text-[#000000] lg:text-black text-base mt-3 font-normal ">
                             Pay after the hiring project success using Hunters
                             safe payment system.
                           </h3>
@@ -696,7 +669,7 @@ function HeadHunter() {
             <div className="relative flex flex-col  p-6  shadow-xl hover:shadow-lg hover:shadow-[#5F7CDD] hover:transition-shadow rounded ">
               {/* left section */}
               <div class="grid grid-cols-5">
-                <div class=" pt-10 px-3 ">
+                <div class=" pt-10 px-3 lg:px-5">
                   <img src="/src/images/Frame 88 (1).png" />
                 </div>
                 <div class="col-span-4">
@@ -707,7 +680,7 @@ function HeadHunter() {
                           <h1 className="text-[#000000] lg:text-black text-xl font-bold">
                             Fair
                           </h1>
-                          <h3 className=" text-[#000000] lg:text-black text-lg mt-3 font-normal ">
+                          <h3 className=" text-[#000000] lg:text-black text-base mt-3 font-normal ">
                             A win-win headhunting brokerage platform for
                             everyone (Tax invoice (type A) or personal income
                             withholding tax (type B) are both acceptable).
