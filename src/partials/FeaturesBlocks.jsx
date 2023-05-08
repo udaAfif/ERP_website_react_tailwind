@@ -33,7 +33,7 @@ function FeaturesBlocks() {
             data-aos-delay="300"
           >
             {/* 1st item */}
-            <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full">
+            <div className="relative  flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -49,17 +49,17 @@ function FeaturesBlocks() {
                 />
               </svg>
 
-              <h4 className=" text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className=" text-xl font-bold leading-snug tracking-tight mb-1 text-white">
                 Easy
               </h4>
-              <p className="text-gray-600 ">
+              <p className="text-white ">
                 Process up to 960 candidates’ reference check at once. Just
                 one-click to start the process and get the answers.
               </p>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col  p-6 bg-white rounded shadow-xl h-full">
+            <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -75,10 +75,10 @@ function FeaturesBlocks() {
                 />
               </svg>
 
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-white">
                 Fast
               </h4>
-              <p className="text-gray-600 ">
+              <p className="text-white">
                 The rate of finding manpower for employment has increased five
                 times compared to the previous one. Dramatically reduced the
                 cost of job failures.
@@ -86,7 +86,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col  p-6 bg-white rounded shadow-xl h-full">
+            <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -102,10 +102,10 @@ function FeaturesBlocks() {
                 />
               </svg>
 
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-white">
                 Secure
               </h4>
-              <p className="text-gray-600 ">
+              <p className="text-white">
                 The information of our clients, candidates, and referees are
                 never shared to others. Without the candidate and the referee’s
                 consent, we do not proceed the process
@@ -113,7 +113,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-col  p-6 bg-white rounded shadow-xl h-full">
+            <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -129,10 +129,10 @@ function FeaturesBlocks() {
                 />
               </svg>
 
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-white">
                 Affordable
               </h4>
-              <p className="text-gray-600 ">
+              <p className="text-white">
                 Focused on the essence, Checker costs only 10% of other
                 reference checking services. Our excellent A.I. technology
                 supports your benefit

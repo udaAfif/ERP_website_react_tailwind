@@ -355,7 +355,7 @@ function Features() {
                         className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
                         href="#0"
                       >
-                        About Headhunter
+                        About HUNTERS
                         <svg
                           className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
                           viewBox="0 0 12 12"

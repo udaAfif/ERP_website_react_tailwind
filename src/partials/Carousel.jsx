@@ -59,7 +59,8 @@ const Carousel = () => {
         </h2>
         <p className="text-xl text-gray-600 mb-12 text-center">
           Used by more than 20+ big and well-known companies across Korea and
-          now is Available in Asia. So what are you waiting for? Do demo now!
+          now is Available in Asia. <br /> So what are you waiting for? Do demo
+          now!
         </p>
         <div className="relative overflow-hidden ">
           {/* <div className="flex justify-between absolute top left w-full h-full">
@@ -109,7 +110,7 @@ const Carousel = () => {
           <div className=" flex justify-center">
             <img
               src="/src/images/Frame 74.png"
-              className="object-cover container  "
+              className="object-cover container  mb-0 lg:mb-20"
             />
           </div>
           <div
@@ -121,8 +122,8 @@ const Carousel = () => {
             {/* 1st item */}
             <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
               <img
-                src="/src/images/download.png"
-                className="w-80 h-32 mx-auto mb-3"
+                src="/src/images/hanwha.png"
+                className="w-80 h-64 mx-auto mb-3 "
               />
 
               <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
@@ -145,7 +146,7 @@ const Carousel = () => {
             <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
               <img
                 src="/src/images/Client_Samsung.png"
-                className="w-32 h-32 mx-auto mb-3"
+                className="w-64 h-64 mx-auto mb-3"
               />
 
               <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">

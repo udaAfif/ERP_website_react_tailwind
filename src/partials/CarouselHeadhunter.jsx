@@ -109,7 +109,7 @@ const CarouselHeadhunter = () => {
           <div className=" flex justify-center mx-0 md:mx-24 lg:mx-24">
             <img
               src="/src/images/Frame 74 (3).png"
-              className="object-cover container "
+              className="object-cover container mb-0 lg:mb-20"
             />
           </div>
 
@@ -117,8 +117,8 @@ const CarouselHeadhunter = () => {
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
                 <img
-                  src="/src/images/download.png"
-                  className="w-80 h-32 mx-auto mb-3"
+                  src="/src/images/hanwha.png"
+                  className="w-80 h-64 mx-auto mb-3"
                 />
 
                 <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
@@ -135,7 +135,7 @@ const CarouselHeadhunter = () => {
               <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
                 <img
                   src="/src/images/Mask group.png"
-                  className="w-40 h-32 mx-auto mb-3"
+                  className="w-80 h-64 mx-auto mb-3"
                 />
 
                 <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
@@ -157,7 +157,7 @@ const CarouselHeadhunter = () => {
               <div className="relative  flex flex-col  p-6 bg-white rounded shadow-xl h-full ">
                 <img
                   src="/src/images/Client_Samsung.png"
-                  className="w-32 h-32 mx-auto mb-3"
+                  className="w-64 h-64 mx-auto mb-3"
                 />
 
                 <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
