@@ -1,8 +1,82 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
+  const [data, setData] = useState({
+    fullName: "",
+    email: "",
+    companeName: "",
+    phoneNumber: "",
+    message: "",
+  });
+
+  function handleInputChange(attribute, value) {
+    setData((prevInfo) => ({ ...prevInfo, [attribute]: value }));
+  }
+
+  const sendMessage = (e) => {
+    e.preventDefault();
+    const templateParams = {
+      my_name: data?.fullName,
+      my_company: data?.companeName,
+      my_email: data?.email,
+      my_phoneNumber: data?.phoneNumber,
+      message: data?.message,
+    };
+
+    emailjs
+      .send(
+        "service_mve4708",
+        "template_xwh0i0i",
+        templateParams,
+        "935lwLlvEpr91ifvC"
+      )
+      .then((res) => {
+        notify();
+      })
+      .catch((err) => {
+        notifyError();
+      });
+  };
+
+  const notify = () =>
+    toast.success("Succesfully send to Wecruit!", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
+  const notifyError = () =>
+    toast.error("Sorry, an error occurred. Please try again later.", {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
   return (
     <>
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
       <div
         class="container mx-auto mt-16 "
         data-aos="zoom-y-out"
@@ -23,7 +97,7 @@ function Contact() {
             <div className="mt-10 font-bold text-2xl">
               <p>Our Offices</p>
             </div>
-            <img className="mt-5" src="/src/images/Office Photo.png" />
+            <img className="mt-5" src="/src/images//Office.png" />
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
               <div className="mt-5 ">
                 <p className="font-bold text-xl mb-3">Jakarta Office</p>
@@ -156,39 +230,42 @@ function Contact() {
 
           <div class="sm:relative p-10">
             <div className="w-full h-full drop-shadow-2xl p-10 rounded-lg bg-white">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
-                <div class="mb-6">
-                  <label
-                    for="email"
-                    class="block mb-2 text-xl font-bold text-gray-900 dark:text-black"
-                  >
-                    First Name
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    class=" border-2 border-[#B7B7B7] dark:bg-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-[#B7B7B7]  dark:placeholder-[#B7B7B7] dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="First Name"
-                    required
-                  />
-                </div>
-                <div class="mb-6">
-                  <label
-                    for="email"
-                    class="block mb-2 text-xl font-bold text-gray-900 dark:text-black"
-                  >
-                    Last Name
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    class=" border-2 border-[#B7B7B7] dark:bg-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-[#B7B7B7]  dark:placeholder-[#B7B7B7] dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="Last Name"
-                    required
-                  />
-                </div>
+              {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5"> */}
+              <div class="mb-6">
+                <label
+                  for="email"
+                  class="block mb-2 text-xl font-bold text-gray-900 dark:text-black"
+                >
+                  Full Name
+                </label>
+                <input
+                  type="text"
+                  class=" border-2 border-[#B7B7B7] dark:bg-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-[#B7B7B7]  dark:placeholder-[#B7B7B7] dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="First Name"
+                  value={data?.fullName}
+                  onChange={(e) => {
+                    handleInputChange("fullName", e.target.value);
+                  }}
+                  required
+                />
               </div>
-              <form>
+              {/* <div class="mb-6">
+                <label
+                  for="email"
+                  class="block mb-2 text-xl font-bold text-gray-900 dark:text-black"
+                >
+                  Last Name
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  class=" border-2 border-[#B7B7B7] dark:bg-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-[#B7B7B7]  dark:placeholder-[#B7B7B7] dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  placeholder="Last Name"
+                  required
+                />
+              </div> */}
+              {/* </div> */}
+              <form onSubmit={sendMessage}>
                 <div class="mb-6">
                   <label
                     for="email"
@@ -198,9 +275,12 @@ function Contact() {
                   </label>
                   <input
                     type="email"
-                    id="email"
                     class=" border-2 border-[#B7B7B7] dark:bg-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-[#B7B7B7]  dark:placeholder-[#B7B7B7] dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Email Address ex. email@mail.com"
+                    value={data?.email}
+                    onChange={(e) => {
+                      handleInputChange("email", e.target.value);
+                    }}
                     required
                   />
                 </div>
@@ -212,10 +292,13 @@ function Contact() {
                     Company Name
                   </label>
                   <input
-                    type="email"
-                    id="email"
+                    type="text"
                     class=" border-2 border-[#B7B7B7] dark:bg-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-[#B7B7B7]  dark:placeholder-[#B7B7B7] dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Company name"
+                    value={data?.companeName}
+                    onChange={(e) => {
+                      handleInputChange("companeName", e.target.value);
+                    }}
                     required
                   />
                 </div>
@@ -227,30 +310,34 @@ function Contact() {
                     Phone Number
                   </label>
                   <input
-                    type="email"
-                    id="email"
-                    class=" border-2 border-[#B7B7B7] dark:bg-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-[#B7B7B7]  dark:placeholder-[#B7B7B7] dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="(+62) 812 1234 4567"
+                    type="number"
+                    className=" border-2 border-[#B7B7B7] dark:bg-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-[#B7B7B7]  dark:placeholder-[#B7B7B7] dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500 appearance-none hover:appearance-none focus:appearance-none"
+                    placeholder="(+62) 812 1234 4567 "
+                    value={data?.phoneNumber}
+                    onChange={(e) => {
+                      handleInputChange("phoneNumber", e.target.value);
+                    }}
                     required
                   />
                 </div>
                 <div class="mb-6">
-                  <label
-                    for="email"
-                    class="block mb-2  text-xl font-bold text-gray-900 dark:text-black"
-                  >
+                  <label class="block mb-2  text-xl font-bold text-gray-900 dark:text-black">
                     Message
                   </label>
                   <textarea
                     type="text"
-                    id="email"
                     class=" border-2 border-[#B7B7B7] dark:bg-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 h-36 block w-full px-2.5   dark:border-[#B7B7B7]  dark:placeholder-[#B7B7B7] dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Your message ..."
+                    value={data?.message}
+                    onChange={(e) => {
+                      handleInputChange("message", e.target.value);
+                    }}
                     required
                   />
                 </div>
 
                 <button
+                  onClick={sendMessage}
                   type="submit"
                   class="text-white bg-gradient-to-r w-full from-[#5F7CDD] to-[#5BA4E8]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm  sm:w-auto px-5 py-2.5 text-center    dark:focus:ring-blue-800"
                 >

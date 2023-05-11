@@ -60,64 +60,35 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Wecruit solution is here for an automated solution for checking
-                candidate references. With the Google A.I Engine, you’ll get
-                results for the highest quality hiring processes now never been
-                easy
+                Introducing WECRUIT ASIA.
+                <br /> Try the new full package adventure of hiring with us
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  mt-5">
-                <NavLink to="/signin">
-                  <div
-                    className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
-                    data-aos="zoom-y-out"
-                    data-aos-delay="300"
-                  >
-                    <div>
-                      <a
-                        className="btn text-[#5F7CDD] shadow-none w-full mb-4 sm:w-auto sm:mb-0"
-                        href="#0"
-                      >
-                        Try It Free
-                        <svg
-                          className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
-                          viewBox="0 0 12 12"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                            fillRule="nonzero"
-                          />
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                </NavLink>
 
-                <div
-                  className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
-                  data-aos="zoom-y-out"
-                  data-aos-delay="300"
-                >
-                  <div>
-                    <a
-                      className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                      href="https://wa.me/6282123387686"
+              <div
+                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
+                data-aos="zoom-y-out"
+                data-aos-delay="300"
+              >
+                <div>
+                  <a
+                    className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                    href="https://wa.me/6282123387686"
+                  >
+                    Request Demo for free now
+                    <svg
+                      className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      Request a Demo
-                      <svg
-                        className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                          fillRule="nonzero"
-                        />
-                      </svg>
-                    </a>
-                  </div>
+                      <path
+                        d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
+                        fillRule="nonzero"
+                      />
+                    </svg>
+                  </a>
                 </div>
               </div>
+
               {/* <NavLink to="/signin">
                 <div
                   className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"

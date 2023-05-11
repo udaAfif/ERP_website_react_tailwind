@@ -199,7 +199,7 @@ function AutoChecker() {
                 </div>
                 {/* end left section */}
 
-                <div className="p-10 md:p-12 lg:p-12 justify-center ">
+                <div className="p-10 md:p-12 lg:p-5 justify-center ">
                   <img src="/src/images/Group 57.png" />
                 </div>
               </div>
@@ -470,21 +470,27 @@ function AutoChecker() {
             <CarouselAutoChecker />
           </div>
           <FreeTrialAutoChekcer />
-          <div
+          {/* <div
             className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-7xl my-3"
+            data-aos="zoom-y-out"
+            data-aos-delay="300"
+          > */}{" "}
+          <div
+            className="max-w-sm mx-auto items-start md:max-w-2xl lg:max-w-7xl my-3"
             data-aos="zoom-y-out"
             data-aos-delay="300"
           >
             {" "}
             {/* 1st item */}
             <div className="relative  flex flex-col  p-6 bg-white rounded h-full ">
-              <h4 className=" text-4xl font-bold leading-snug tracking-tight mb-3 ">
+              <h4 className=" text-4xl font-bold text-center leading-snug tracking-tight mb-3 ">
                 FAQ
               </h4>
 
-              <p className="text-gray-600 leading-9">
+              <p className="text-gray-600 leading-9 text-center">
                 We believe that education is key to creating a more sustainable
                 world. That's why we've compiled answers to the most common
+                <br />
                 questions about sustainability and our products.
               </p>
             </div>
@@ -730,6 +736,7 @@ function AutoChecker() {
                 </Disclosure.Panel>
               </Disclosure>
             </div>
+            {/* </div> */}
           </div>
         </div>
       </div>

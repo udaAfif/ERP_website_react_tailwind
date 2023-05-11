@@ -97,12 +97,13 @@ function HeadHunter() {
                 {/* <p className="text-xl lg:text-[#5F7CDD] text-[#5F7CDD] mb-3 font-semibold">
                   WHAT IS HEADHUNTER by WECRUIT
                 </p> */}
-                <h2 className="h2 mb-4 ">
+                <h2 className="h2 mb-4 text-center">
                   Hunters is platform where HR Manager and Headhunters meet.
                 </h2>
-                <h3 className=" text-[#000000] lg:text-black text-xl mt-3 font-normal ">
+                <h3 className=" text-[#000000] lg:text-black text-xl mt-3 font-normal text-center ">
                   Hunters solves complex and inefficient communication between
-                  HR and headhunters. Make it more convenient and faster.
+                  HR and headhunters.
+                  <br /> Make it more convenient and faster.
                 </h3>
               </div>
 
@@ -542,7 +543,7 @@ function HeadHunter() {
           </div>
         </div>
 
-        <h4 className="text-4xl font-bold mb-4 leading-snug tracking-tight  text-center text-black z-20">
+        <h4 className="text-4xl font-bold mb-4 leading-snug tracking-tight mt-12 text-center text-black z-20">
           Unveil the power of Headhunters and unlock <br /> new possibilities.
           See how it works!
         </h4>

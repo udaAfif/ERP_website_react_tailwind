@@ -145,7 +145,7 @@ const Carousel = () => {
             {/* 2nd item */}
             <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
               <img
-                src="/src/images/Client_Samsung.png"
+                src="/src/images/Mask group (3).png"
                 className="w-64 h-64 mx-auto mb-3"
               />
 

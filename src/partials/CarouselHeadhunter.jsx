@@ -109,13 +109,13 @@ const CarouselHeadhunter = () => {
           </div> */}
           <div className=" flex justify-center mx-0 lg:mx-32">
             <img
-              src="/src/images/Frame 74 (3).png"
+              src="/src/images/3line.png"
               className="object-cover container mb-0 lg:mb-20"
             />
           </div>
 
           <div class="flex justify-center mx-5 py-10 md:mx-20 lg:mx-20">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
               <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
                 <img
                   src="/src/images/hanwha.png"
@@ -125,7 +125,7 @@ const CarouselHeadhunter = () => {
                 <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
                   Hanhwa Systems
                 </h4>
-                <h4 className=" text-base font-semibold leading-snug tracking-tight mb-3 text-center">
+                <h4 className=" text-base font-medium leading-snug tracking-tight mb-3 text-center">
                   Work-efficiency is growing more than 300%. There is no <br />{" "}
                   reason not to use this platform as HR perspective.
                 </h4>
@@ -135,14 +135,14 @@ const CarouselHeadhunter = () => {
               </div>
               <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
                 <img
-                  src="/src/images/Mask group.png"
+                  src="/src/images/Mask group (2).png"
                   className="w-64 h-64 mx-auto mb-3"
                 />
 
                 <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
                   VNTC
                 </h4>
-                <h4 className=" text-base font-semibold leading-snug tracking-tight mb-3 text-center">
+                <h4 className=" text-base font-medium leading-snug tracking-tight mb-3 text-center">
                   Through this platform, my company already hired 2 people.
                   <br />
                   Another person is waiting for admission.
@@ -151,21 +151,16 @@ const CarouselHeadhunter = () => {
                   Executive Director, Jee-hae,Song
                 </p>
               </div>
-            </div>
-          </div>
-
-          <div class="flex justify-center mb-4 mx-5 md:mx-56 lg:mx-56">
-            <div class="grid grid-cols-1 md:grid-cols-1 ">
               <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
                 <img
-                  src="/src/images/Client_Samsung.png"
+                  src="/src/images/Mask group (3).png"
                   className="w-64 h-64 mx-auto mb-3"
                 />
 
                 <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
                   SAMSUNG
                 </h4>
-                <h4 className=" text-base font-semibold leading-snug tracking-tight mb-3 text-center">
+                <h4 className=" text-base font-normal leading-snug tracking-tight mb-3 text-center">
                   It was very hassle to communicate with more <br /> than 10
                   search firms separately and do cost processing, <br /> but now
                   through this, everything can be at one time.
@@ -173,6 +168,10 @@ const CarouselHeadhunter = () => {
               </div>
             </div>
           </div>
+
+          {/* <div class="flex justify-center mb-4 mx-5 md:mx-56 lg:mx-56">
+            <div class="grid grid-cols-1 md:grid-cols-1 "></div>
+          </div> */}
         </div>
       </div>
     </>

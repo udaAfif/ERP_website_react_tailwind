@@ -64,8 +64,8 @@ const FreeTrial = () => {
         </svg>
 
         <h2 className="text-4xl text-center text-[#5F7CDD] font-semibold mb-5">
-          Start to improve your recruitment workflow with Wecruit full package
-          recruitment solution.
+          Start to improve your recruitment workflow
+          <br /> with Wecruit full package recruitment solution.
         </h2>
         {/* <p className="text-2xl font-semibold text-gray-600 mb-12 text-center lg:mx-32">
           Start improve your workflow with Wecruit solution. Wether it’s

@@ -60,7 +60,8 @@ const CarouselPricing = () => {
         </h2>
         <p className="text-xl text-gray-600 mb-12 text-center">
           Used by more than 20+ big and well-known companies across Korea and
-          now is Available in Asia. So what are you waiting for? Do demo now!
+          now is Available in Asia.
+          <br /> So what are you waiting for? Do demo now!
         </p>
         <div className="relative overflow-hidden ">
           {/* <div className="flex justify-between absolute top left w-full h-full">
@@ -107,7 +108,7 @@ const CarouselPricing = () => {
               <span className="sr-only">Next</span>
             </button>
           </div> */}
-          <div className=" flex justify-center">
+          <div className=" flex justify-center mx-0 lg:mx-32">
             <img
               src="/src/images/Frame 74 (1).png"
               className="object-cover container  "
