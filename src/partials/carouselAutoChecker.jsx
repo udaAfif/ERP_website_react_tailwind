@@ -131,8 +131,8 @@ const CarouselAutoChecker = () => {
                 Hanhwa Systems
               </h4>
               <h4 className=" text-base font-semibold leading-snug tracking-tight mb-3 text-center">
-                The candidate self authentication and ethics check feature is
-                the most important
+                The candidate self authentication
+                <br /> and ethics check feature is the most important
               </h4>
               <p className="text-gray-600 text-center ">
                 Getting the confirm that "I have never gotten a disciplinary
@@ -154,16 +154,19 @@ const CarouselAutoChecker = () => {
                 Lamudi
               </h4>
               <h4 className=" text-base font-semibold leading-snug tracking-tight mb-3 text-center">
-                Efficient and user-friendly, the impact of its use was
-                remarkable
+                Efficient and user-friendly,
+                <br /> the impact of its use was remarkable
               </h4>
               <p className="text-gray-600 text-center ">
                 We found Checker Auto to be an effective and efficient solution
                 for our recruitment needs. The results we received were highly
-                satisfactory, which proved very helpful to our team. Compared to
-                our previous manual reference checks, Checker Auto significantly
-                streamlined our hiring process, saving us valuable time and
-                resources.
+                satisfactory, as we required a fast and accurate selection
+                process for our candidates. Thus, it features enabled us to
+                generate valuable and valid reports, which proved very helpful
+                to our team.
+              </p>
+              <p className="text-center font-bold mt-3 text-black">
+                Head of Bussiness Development, Nydia Verea Paramita
               </p>
             </div>
           </div>

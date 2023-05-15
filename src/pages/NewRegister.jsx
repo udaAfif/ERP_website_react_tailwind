@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function NewSignIn() {
+function NewRegister() {
   return (
     <>
       <div
@@ -34,7 +34,7 @@ function NewSignIn() {
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                       <button className="h-36 hover:bg-slate-500 hover:border-slate-400 border-2 border-gray-300 rounded-xl py-6 px-3 justify-center flex bg-black">
                         <a
-                          href="https://gchecker.wecruitpro.com/"
+                          href="https://gchecker.wecruitpro.com/sign-up"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -53,7 +53,7 @@ function NewSignIn() {
 
                       <button className="h-36 hover:bg-slate-500 hover:border-slate-400 border-2 border-gray-300 rounded-xl py-6 px-3 justify-center flex bg-black">
                         <a
-                          href="https://ghunters.wecruitpro.com/"
+                          href="https://ghunters.wecruitpro.com/join-employer"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -81,4 +81,4 @@ function NewSignIn() {
   );
 }
 
-export default NewSignIn;
+export default NewRegister;

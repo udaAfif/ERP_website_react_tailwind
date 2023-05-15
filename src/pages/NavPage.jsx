@@ -6,6 +6,7 @@ import Pricing from "./Pricing";
 import Contact from "./Contact";
 import HeadHunter from "./Headhunter";
 import AutoChecker from "./AutcoChecker";
+import NewRegister from "./NewRegister";
 
 function NavPage() {
   return (
@@ -14,6 +15,7 @@ function NavPage() {
         <Route exact path="/" element={<Home />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/signin" element={<NewSignIn />} />
+        <Route path="/register" element={<NewRegister />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/headhunter" element={<HeadHunter />} />
         <Route path="/autochecker" element={<AutoChecker />} />

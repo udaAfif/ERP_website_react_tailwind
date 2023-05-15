@@ -123,7 +123,12 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
         <footer class="p-4 bg-white sm:hidden md:flex md:items-center md:justify-between md:p-6 ">
           <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0 ml-28">
             <li className="">
-              <a href="#" class="mr-4 hover:underline md:mr-6 ">
+              <a
+                href="https://www.instagram.com/wecruit_asia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="mr-4 hover:underline md:mr-6 "
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -141,7 +146,12 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
               </a>
             </li>
             <li className="ml-5">
-              <a href="#" class="mr-4 hover:underline md:mr-6">
+              <a
+                href="https://www.facebook.com/WecruitAsia"
+                class="mr-4 hover:underline md:mr-6"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -160,7 +170,12 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
             </li>
 
             <li className="ml-5">
-              <a href="#" class="mr-4 hover:underline md:mr-6 absolute -mt-4">
+              <a
+                href="https://www.linkedin.com/company/wecruit-indonesia/"
+                class="mr-4 hover:underline md:mr-6 absolute -mt-4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

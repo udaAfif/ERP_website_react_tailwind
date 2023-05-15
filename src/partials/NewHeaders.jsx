@@ -237,13 +237,14 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
                       Sign In
                     </a>
                   </NavLink>
-                  <a
-                    href="https://gchecker.wecruitpro.com/sign-up"
-                    className="btn-sm  text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-slate-50 ml-3"
-                  >
-                    Register
-                  </a>
-
+                  <NavLink to="/register">
+                    <a
+                      href="https://gchecker.wecruitpro.com/sign-up"
+                      className="btn-sm  text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-slate-50 ml-3"
+                    >
+                      Register
+                    </a>
+                  </NavLink>
                   {/* <a
                     href="#"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -427,13 +428,14 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
                     Sign In
                   </a>
                 </Link>
-
-                <a
-                  href="https://gchecker.wecruitpro.com/sign-up"
-                  className="btn-sm  text-white bg-gradient-to-r from-[#5F7CDD] px-3 py-2 to-[#5BA4E8] hover:bg-slate-50 ml-3"
-                >
-                  Register
-                </a>
+                <Link to="/register">
+                  <a
+                    href="#"
+                    className="btn-sm  text-white bg-gradient-to-r from-[#5F7CDD] px-3 py-2 to-[#5BA4E8] hover:bg-slate-50 ml-3"
+                  >
+                    Register
+                  </a>
+                </Link>
               </div>
             </div>
           )}
