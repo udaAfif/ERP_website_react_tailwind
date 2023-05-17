@@ -110,10 +110,10 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
               </NavLink>
               <a
                 className="cursor-pointer"
-                href="https://blog.naver.com/prologue/PrologueList.naver?blogId=careercredit&skinType=&skinId=&from=menu"
+                href="https://www.youtube.com/channel/UC5gqBlizamxfoKkJKpMWrYQ?app=desktop"
               >
                 <p className="text-[#5F7CDD] text-[16px] font-semibold ml-5">
-                  Blog
+                  YouTube
                 </p>
               </a>
             </div>

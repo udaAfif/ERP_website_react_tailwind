@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import data from "./data.json";
+import RunningImages from "./RunRightToLeft";
 
 const CarouselAutoChecker = () => {
   const maxScrollWidth = useRef(0);
@@ -107,11 +108,14 @@ const CarouselAutoChecker = () => {
               <span className="sr-only">Next</span>
             </button>
           </div> */}
-          <div className=" flex justify-center mx-0 lg:mx-32">
+          {/* <div className=" flex justify-center mx-0 lg:mx-32">
             <img
               src="/src/images/Frame 74 (1).png"
               className="object-cover container  mb-0 lg:mb-20 "
             />
+          </div> */}
+          <div className="mx-0 lg:mx-32">
+            <RunningImages />
           </div>
           <div
             className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-7xl my-5"

@@ -1,0 +1,22 @@
+.running-images-container {
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes runRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.running-images-slide {
+  display: flex;
+  animation: runRightToLeft 20s linear infinite;
+}
+
+.running-images-slide img {
+  flex-shrink: 1;
+}

@@ -110,8 +110,8 @@ const CarouselPricing = () => {
           </div> */}
           <div className=" flex justify-center mx-0 lg:mx-32">
             <img
-              src="/src/images/Frame 74 (1).png"
-              className="object-cover container  "
+              src="/src/images/Frame 74 (7).png"
+              className="object-cover container w-[80%] "
             />
           </div>
         </div>

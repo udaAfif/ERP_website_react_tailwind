@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import data from "./data.json";
+import RunningImages from "./RunRightToLeft";
 
 const Carousel = () => {
   const maxScrollWidth = useRef(0);
@@ -107,11 +108,14 @@ const Carousel = () => {
               <span className="sr-only">Next</span>
             </button>
           </div> */}
-          <div className=" flex justify-center mx-0 lg:mx-32">
+          {/* <div className=" flex justify-center mx-0 lg:mx-32">
             <img
               src="/src/images/Frame 74.png"
               className="object-cover container  mb-0 lg:mb-20"
             />
+          </div> */}
+          <div className="mx-0 lg:mx-32">
+            <RunningImages />
           </div>
           <div
             className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-7xl my-5"
@@ -122,29 +126,6 @@ const Carousel = () => {
             {/* 1st item */}
             <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
               <img
-                src="/src/images/hanwha.png"
-                className="w-64 h-64 mx-auto mb-3 "
-              />
-
-              <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
-                Hanhwa Systems
-              </h4>
-              <h4 className=" text-base font-semibold leading-snug tracking-tight mb-3 text-center">
-                The candidate self authentication and ethics check feature is
-                the most important
-              </h4>
-              <p className="text-gray-600 text-center ">
-                Getting the confirm that "I have never gotten a disciplinary
-                action nor had an ethical issue at my workplace" from the
-                candidate is very important. There is no other way to handle
-                theproblem after the candidate join the company. Since CHECKER
-                provides a self authentication, there's a legal effect of
-                "preventing self denial".
-              </p>
-            </div>
-            {/* 2nd item */}
-            <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
-              <img
                 src="/src/images/Mask group (3).png"
                 className="w-64 h-64 mx-auto mb-3"
               />
@@ -153,7 +134,8 @@ const Carousel = () => {
                 Samsung
               </h4>
               <h4 className=" text-base font-semibold leading-snug tracking-tight mb-3 text-center">
-                Checker reduces $200 of labor cost per candidate
+                Checker reduces $200 of labor
+                <br /> cost per candidate
               </h4>
               <p className="text-gray-600 text-center ">
                 We're planning to continue using CHECKER because of its cost
@@ -161,6 +143,29 @@ const Carousel = () => {
                 former (reference check) process since our HR managers conducted
                 it themselves. However, CHECKER is meaningful enough in terms of
                 its time and cost.
+              </p>
+            </div>
+            {/* 2nd item */}
+            <div className="relative  flex flex-col  p-6 my-3 bg-white rounded shadow-xl h-full ">
+              <img
+                src="/src/images/lamudi.png"
+                className="w-64 h-64 mx-auto mb-3 "
+              />
+
+              <h4 className=" text-xl font-bold leading-snug tracking-tight mb-3 mx-auto">
+                Lamudi
+              </h4>
+              <h4 className=" text-base font-semibold leading-snug tracking-tight mb-3 text-center">
+                Efficient and user-friendly,
+                <br /> the impact of its use was remarkable
+              </h4>
+              <p className="text-gray-600 text-center ">
+                We found Checker Auto to be an effective and efficient solution
+                for our recruitment needs. The results we received were highly
+                satisfactory, as we required a fast and accurate selection
+                process for our candidates. Thus, it features enabled us to
+                generate valuable and valid reports, which proved very helpful
+                to our team.
               </p>
             </div>
           </div>

@@ -286,7 +286,7 @@ function Features() {
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >
-                  AutoChecker
+                  CHECKER
                 </p>
                 <p
                   className="mt-5 text-white leading-8 font-normal text-2xl "
@@ -307,7 +307,7 @@ function Features() {
                         className="btn text-white bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
                         href="#0"
                       >
-                        About AutoChecker
+                        About CHECKER
                         <svg
                           className="w-3 h-3 fill-current text-white flex-shrink-0 ml-2 -mr-1"
                           viewBox="0 0 12 12"
@@ -333,7 +333,7 @@ function Features() {
                   data-aos="zoom-y-out"
                   data-aos-delay="300"
                 >
-                  Headhunter
+                  HUNTERS
                 </p>
                 <p
                   className="mt-5 text-white leading-8 font-normal text-2xl "

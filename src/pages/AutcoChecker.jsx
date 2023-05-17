@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import FreeTrialAutoChekcer from "./FreeTrialAutoChecker";
 import CarouselAutoChecker from "../partials/carouselAutoChecker";
 import { Disclosure, Transition } from "@headlessui/react";
+import Newsletter from "../partials/Newsletter";
 
 function AutoChecker() {
   return (
@@ -94,12 +95,12 @@ function AutoChecker() {
               {/* Section header */}
               <div className="pb-12 md:pb-10 -mt-80 md:mt-32 lg:mt-96">
                 <h2 className="text-[40px] font-bold text-center mb-4">
-                  Why Wecruit Autochecker?
+                  Why Wecruit CHECKER?
                 </h2>
                 <p className="font-normal text-xl text-center">
                   A comparisons with competitor (down below) shows that Wecruit
-                  Autochecker <br /> provides 90% better feature while
-                  maintaining 20% lower prices.
+                  CHECKER <br /> provides 90% better feature while maintaining
+                  20% lower prices.
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 pb-12 md:pb-10">
@@ -308,7 +309,7 @@ function AutoChecker() {
         <div className="bg-black">
           <div className=" relative max-w-7xl mx-auto py-10 px-4 sm:px-6">
             <div className="font-bold text-[40px] text-white">
-              <p>How to use Autochecker by Wecruit</p>
+              <p>How to use CHECKER by Wecruit</p>
             </div>
             <div className="font-normal text-[20px] text-white mb-5">
               <p>
@@ -740,6 +741,7 @@ function AutoChecker() {
           </div>
         </div>
       </div>
+      <Newsletter />
     </>
   );
 }

@@ -18,17 +18,17 @@ function FeaturesBlocks() {
         >
           {/* Section header */}
           <div className=" mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4 text-[#5F7CDD] lg:text-left text-center">
-              Benefits Choosing Wecruit Solution.
-            </h2>
             <p className="text-xl text-white lg:text-left text-center">
-              The best feature for the best person.
+              Best feature in its class.
             </p>
+            <h2 className="h2 mb-4 text-[#5F7CDD] lg:text-left text-center">
+              Our platform will help you to hire people easily.
+            </h2>
           </div>
 
           {/* Items */}
           <div
-            className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-start md:max-w-2xl lg:max-w-none "
+            className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none "
             data-aos="zoom-y-out"
             data-aos-delay="300"
           >
@@ -50,16 +50,17 @@ function FeaturesBlocks() {
               </svg>
 
               <h4 className=" text-xl font-bold leading-snug tracking-tight mb-1 text-white">
-                Easy
+                Convenient
               </h4>
               <p className="text-white ">
-                Process up to 960 candidates’ reference check at once. Just
-                one-click to start the process and get the answers.
+                (Auto Checker) With only one click, HR manager can conduct
+                reference check for up to 960 people in a day at the same time
+                (Hunters) Managing headhunters in a simpler way using platform.
               </p>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
+            {/* <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -83,10 +84,10 @@ function FeaturesBlocks() {
                 times compared to the previous one. Dramatically reduced the
                 cost of job failures.
               </p>
-            </div>
+            </div> */}
 
             {/* 3rd item */}
-            <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
+            {/* <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -110,7 +111,7 @@ function FeaturesBlocks() {
                 never shared to others. Without the candidate and the referee’s
                 consent, we do not proceed the process
               </p>
-            </div>
+            </div> */}
 
             {/* 4th item */}
             <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
@@ -130,12 +131,12 @@ function FeaturesBlocks() {
               </svg>
 
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-white">
-                Affordable
+                Economic
               </h4>
               <p className="text-white">
-                Focused on the essence, Checker costs only 10% of other
-                reference checking services. Our excellent A.I. technology
-                supports your benefit
+                (Auto Checker) Using online reference check service increase
+                time-efficient and cost-effective (Hunters) Headhunter platform,
+                “Hunters”, is all free~**!
               </p>
             </div>
 

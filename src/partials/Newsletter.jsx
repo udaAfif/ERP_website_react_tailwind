@@ -40,10 +40,11 @@ function Newsletter() {
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl mx-10">
                 <h3 className="h3 text-white mb-2">
-                  Subscribe to our newsletter
+                  Sign up to our newsletter!
                 </h3>
                 <p className="text-gray-300 text-lg mb-6">
-                  Get the latest promo and Wecruit Solution news. Easy, no spam.
+                  Stay informed and connected. Subscribe to our newsletter for
+                  exclusive updates, industry insights, and special offers.
                 </p>
               </div>
               <div className="text-center lg:text-left lg:max-w-xl mx-10">
@@ -60,7 +61,7 @@ function Newsletter() {
                       className="btn text-white bg-blue-600 hover:bg-blue-700 shadow"
                       href="#0"
                     >
-                      Subscribe
+                      Register
                     </a>
                   </div>
                   {/* Success message */}

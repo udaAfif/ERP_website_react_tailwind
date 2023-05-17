@@ -414,7 +414,7 @@ function HeadHunter() {
                 {/* left section */}
                 <div class="grid grid-cols-5">
                   <div class=" pt-10 px-3 md:px-7 lg:px-7">
-                    <img src="/src/images/Frame 88.png" />
+                    <img src="/src/images/smallIcon4.png" />
                   </div>
                   <div class="col-span-4">
                     <div className="pt-10 text-left">
@@ -435,7 +435,7 @@ function HeadHunter() {
                   </div>
                   {/* number 2 */}
                   <div class=" pt-10 px-3 md:px-7 lg:px-7 mt-0 md:-mt-0 lg:-mt-0">
-                    <img src="/src/images/Frame 88-1.png" />
+                    <img src="/src/images/smallIcon1.png" />
                   </div>
                   <div class="col-span-4 mt-0 md:-mt-0 lg:-mt-0">
                     <div className="pt-10 text-left">
@@ -458,7 +458,7 @@ function HeadHunter() {
                   {/* end number 2 */}
                   {/* number 3 */}
                   <div class=" pt-10 px-3 md:px-7 lg:px-7 mt-0 md:-mt-0 lg:-mt-0">
-                    <img src="/src/images/Frame 88-2.png" />
+                    <img src="/src/images/smallIcon2.png" />
                   </div>
                   <div class="col-span-4 mt-0 md:-mt-0 lg:-mt-0">
                     <div className="pt-10 text-left">
@@ -489,7 +489,7 @@ function HeadHunter() {
                 {/* left section */}
                 <div class="grid grid-cols-5">
                   <div class=" pt-10 px-3 md:px-7 lg:px-7">
-                    <img src="/src/images/Frame 88.png" />
+                    <img src="/src/images/smallIcon3.png" />
                   </div>
                   <div class="col-span-4">
                     <div className="pt-10 text-left">
@@ -510,7 +510,7 @@ function HeadHunter() {
                   </div>
                   {/* number 2 */}
                   <div class=" pt-10 px-3 md:px-7 lg:px-7 mt-0 md:-mt-0 lg:-mt-0">
-                    <img src="/src/images/Frame 88-1.png" />
+                    <img src="/src/images/smallIcon1.png" />
                   </div>
                   <div class="col-span-4 mt-0 md:-mt-0 lg:-mt-0">
                     <div className="pt-10 text-left">
