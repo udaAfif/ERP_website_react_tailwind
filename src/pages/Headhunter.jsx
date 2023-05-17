@@ -97,10 +97,10 @@ function HeadHunter() {
                 {/* <p className="text-xl lg:text-[#5F7CDD] text-[#5F7CDD] mb-3 font-semibold">
                   WHAT IS HEADHUNTER by WECRUIT
                 </p> */}
-                <h2 className="h2 mb-4 text-center">
+                <h2 className="h2 mb-4 text-left">
                   Hunters is platform where HR Manager and Headhunters meet.
                 </h2>
-                <h3 className=" text-[#000000] lg:text-black text-xl mt-3 font-normal text-center ">
+                <h3 className=" text-[#000000] lg:text-black text-xl mt-3 font-normal text-left ">
                   Hunters solves complex and inefficient communication between
                   HR and headhunters.
                   <br /> Make it more convenient and faster.
@@ -108,12 +108,12 @@ function HeadHunter() {
               </div>
 
               {/* Items */}
-              <div
+              {/* <div
                 className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3  md:max-w-2xl lg:max-w-none"
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
-                {/* 1st item */}
+                1st item
                 <div className="relative flex flex-col  p-6  bg-white rounded shadow-lg hover:shadow-2xl">
                   <img
                     src="/src/images/checklisst.png"
@@ -129,7 +129,7 @@ function HeadHunter() {
                   </p>
                 </div>
 
-                {/* 2nd item */}
+                2nd item
                 <div className="relative flex flex-col  p-6  bg-white rounded shadow-lg hover:shadow-2xl">
                   <img
                     src="/src/images/dollar.png"
@@ -146,7 +146,7 @@ function HeadHunter() {
                   </p>
                 </div>
 
-                {/* 3rd item */}
+                3rd item
                 <div className="relative flex flex-col  p-6  bg-white rounded shadow-lg hover:shadow-2xl">
                   <img
                     src="/src/images/people.png"
@@ -162,7 +162,7 @@ function HeadHunter() {
                     and easy.
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -391,7 +391,7 @@ function HeadHunter() {
             </div>
           </div>
         </div> */}
-        <h4 className="text-4xl font-bold mb-4 leading-snug tracking-tight  text-center text-black z-20">
+        {/* <h4 className="text-4xl font-bold mb-4 leading-snug tracking-tight  text-center text-black z-20">
           Advantage choosing Autochecker.
         </h4>
         <p className="text-gray-600 text-center px-10 md:px-36 lg:px-36 ">
@@ -399,8 +399,8 @@ function HeadHunter() {
           - the efficient and cost-effective autopilot
           <br /> reference check tool for recruitment. With our user-friendly
           platform, save up to 70% compared to market rates.
-        </p>
-        <div className="bg-white">
+        </p> */}
+        <div className="bg-white -mt-28">
           <div className=" relative max-w-6xl mx-auto py-10 px-4 sm:px-6">
             <div
               className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2  md:max-w-2xl lg:max-w-none"

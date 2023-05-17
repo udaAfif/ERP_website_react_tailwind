@@ -313,7 +313,7 @@ function AutoChecker() {
             </div>
             <div className="font-normal text-[20px] text-white mb-5">
               <p>
-                Still confuse on how Autochecker by Wecruit works? <br /> Here,
+                Still confuse on how CHECKER by Wecruit works? <br /> Here,
                 we’ll tell you the magic behind it.
               </p>
             </div>
@@ -369,9 +369,9 @@ function AutoChecker() {
                   </p>
                 </div>
                 <p className="text-[20px] font-normal lg:ml-16 lg:text-left  text-center text-white">
-                  Insert candidate’s name and contact information, and
-                  Autochecker by Wecruit will automatically continue to finish
-                  the report. Use Questionnaire as much as you want.
+                  Insert candidate’s name and contact information, and CHECKER
+                  by Wecruit will automatically continue to finish the report.
+                  Use Questionnaire as much as you want.
                 </p>
                 <p className="mt-3 text-[14px] font-normal lg:ml-16 lg:text-left  text-center text-white">
                   * Unlimited reference checking capacity <br /> * Process
@@ -401,8 +401,8 @@ function AutoChecker() {
                   </p>
                 </div>
                 <p className="text-[20px] font-normal lg:ml-16 lg:text-left  text-center text-white">
-                  Autochecker by Wecruit is safe and secure. Wecruit’s
-                  experience with over 3.000 project will cover everything.
+                  CHECKER by Wecruit is safe and secure. Wecruit’s experience
+                  with over 3.000 project will cover everything.
                 </p>
                 <p className="mt-3 text-[14px] font-normal lg:ml-16 lg:text-left  text-center text-white">
                   * Orientation video will provided <br /> * The reference check
@@ -425,10 +425,9 @@ function AutoChecker() {
                   </p>
                 </div>
                 <p className="text-[20px] font-normal lg:ml-16 lg:text-left  text-center text-white">
-                  After a Referee agrees to participate, Autochecker will send a
+                  After a Referee agrees to participate, CHECKER will send a
                   questionnaire. After that, the Referee's answers will be
-                  presented with high quality & the right quantity by
-                  Autochecker.
+                  presented with high quality & the right quantity by CHECKER.
                 </p>
               </div>
               {/* 8rd item */}

@@ -4,7 +4,7 @@ function Newsletter() {
   return (
     <section>
       <div className="">
-        <div className="pb-12 md:pb-20">
+        <div className="">
           {/* CTA box */}
           <div
             className="relative bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden"
