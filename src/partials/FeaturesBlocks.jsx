@@ -53,9 +53,9 @@ function FeaturesBlocks() {
                 Convenient
               </h4>
               <p className="text-white ">
-                (Auto Checker) With only one click, HR manager can conduct
-                reference check for up to 960 people in a day at the same time
-                (Hunters) Managing headhunters in a simpler way using platform.
+                (Checker) With only one click, HR manager can conduct reference
+                check for up to 960 people in a day at the same time (Hunters)
+                Managing headhunters in a simpler way using platform.
               </p>
             </div>
 
@@ -134,7 +134,7 @@ function FeaturesBlocks() {
                 Economic
               </h4>
               <p className="text-white">
-                (Auto Checker) Using online reference check service increase
+                (Checker) Using online reference check service increase
                 time-efficient and cost-effective (Hunters) Headhunter platform,
                 “Hunters”, is all free~**!
               </p>

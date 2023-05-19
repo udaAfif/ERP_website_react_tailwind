@@ -13,7 +13,7 @@ function AutoChecker() {
         data-aos-delay="150"
       >
         <div className="">
-          <img src="/src/images/Group 55 (2).png" className="absolute -z-1 " />
+          <img src="/src/images/Header.png" className="absolute -z-1 " />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
             <div className="p-10 ">
               <div className="lg:mt-20 -mt-56">
@@ -22,10 +22,10 @@ function AutoChecker() {
                     {/* <h1 className="text-[#000000] lg:text-white text-sm font-normal">
                       COMING SOON!
                     </h1> */}
-                    <h1 className="text-[#000000] lg:text-black text-5xl font-bold">
+                    <h1 className="text-[#ffffff] lg:text-white text-5xl font-bold">
                       Quick and Easy solution to do reference check
                     </h1>
-                    <h3 className=" text-[#000000] lg:text-black text-xl mt-3 font-normal ">
+                    <h3 className=" text-[#ffffff] lg:text-white text-xl mt-3 font-normal ">
                       An autopilot reference check tool for recruitment. You can
                       start within 30 sec and save 70% of cost compare to market
                       cost.
@@ -204,7 +204,7 @@ function AutoChecker() {
                   <img src="/src/images/Group 57.png" />
                 </div>
               </div>
-              <img src="/src/images/Table.png" />
+              <img src="/src/images/Comparions.png" />
 
               {/* <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
                 <table class="w-full text-sm text-left text-white dark:text-gray-400">
