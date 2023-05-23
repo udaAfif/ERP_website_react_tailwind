@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function FooterNew() {
   return (
@@ -99,12 +99,12 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
           <div class=" sm:inline-flex ">
             <div className=" justify-center inline-flex">
               <NavLink to="/">
-                <p className="text-[#5F7CDD] text-[16px] font-semibold">
+                <p className="text-[#5F7CDD] underline text-[16px] font-semibold">
                   Homepage
                 </p>
               </NavLink>
               <NavLink to="/pricing">
-                <p className="text-[#5F7CDD] text-[16px] font-semibold ml-5">
+                <p className="text-[#5F7CDD] underline text-[16px] font-semibold ml-5">
                   Pricing
                 </p>
               </NavLink>
@@ -112,10 +112,32 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
                 className="cursor-pointer"
                 href="https://www.youtube.com/channel/UC5gqBlizamxfoKkJKpMWrYQ?app=desktop"
               >
-                <p className="text-[#5F7CDD] text-[16px] font-semibold ml-5">
+                <p className="text-[#5F7CDD] underline text-[16px] font-semibold ml-5">
                   YouTube
                 </p>
               </a>
+              <Link
+                to="/src/images/documents/Wecruit Integrated Service terms_of_use_en_(Hunters - HR manager) V.20230427.docx"
+                download
+                target="_blank"
+              >
+                <a className="cursor-pointer">
+                  <p className="text-[#5F7CDD] underline text-[16px] font-semibold ml-5">
+                    Terms of Use
+                  </p>
+                </a>
+              </Link>
+              <Link
+                to="/src/images/documents/Wecruit Integrated Service Privacy Policy_en V.20230427.docx"
+                download
+                target="_blank"
+              >
+                <a className="cursor-pointer">
+                  <p className="text-[#5F7CDD] underline text-[16px] font-semibold ml-5">
+                    Privacy & Policy
+                  </p>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
