@@ -117,7 +117,7 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
                 </p>
               </a>
               <Link
-                to="/src/images/documents/Wecruit Integrated Service terms_of_use_en_(Hunters - HR manager) V.20230427.docx"
+                to="/src/images/documents/Wecruit Integrated Service terms_of_use_en_(Hunters - HR manager) V.20230427.pdf"
                 download
                 target="_blank"
               >
@@ -128,7 +128,7 @@ l-819 0 0 -1465z m1382 710 c94 -15 192 -55 221 -89 40 -48 57 -103 57 -186 0
                 </a>
               </Link>
               <Link
-                to="/src/images/documents/Wecruit Integrated Service Privacy Policy_en V.20230427.docx"
+                to="/src/images/documents/Wecruit Integrated Service Privacy Policy_en V.20230427.pdf"
                 download
                 target="_blank"
               >
