@@ -8,7 +8,7 @@ function FeaturesBlocks() {
         className="absolute inset-0  md:mt-24 lg:mt-0 bg-black pointer-events-none"
         aria-hidden="true"
       ></div>
-      <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] transform translate-y-1/2"></div>
+      {/* <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gradient-to-r from-[#5F7CDD] to-[#5BA4E8] transform translate-y-1/2"></div> */}
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div
@@ -26,14 +26,64 @@ function FeaturesBlocks() {
             </h2>
           </div>
 
+          <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+            <table class="w-full text-sm  text-gray-500 dark:text-gray-400 text-center">
+              <thead class=" uppercase bg-black border-b-2 border-b-[#5F7CDD] ">
+                <tr>
+                  <th scope="col" class="px-6 py-3"></th>
+                  <th scope="col" className="px-6 py-3 text-lg text-white ">
+                    CONVENIENT
+                  </th>
+                  <th scope="col" class="px-6 py-3 text-lg text-white ">
+                    ECONOMIC
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="bg-black border-b-2 border-b-[#5F7CDD]">
+                  <th
+                    scope="row"
+                    class="px-6 py-4 whitespace-nowrap text-white text-xl font-bold bg-[#5F7CDD] "
+                  >
+                    CHECKERS <br />
+                    <span className="text-sm font-medium">by WECRUIT</span>
+                  </th>
+                  <td class="px-6 py-4 text-white text-sm">
+                    With only one click, HR manager can conduct <br /> reference
+                    check for up to 960 people in a day at the <br /> same time
+                  </td>
+                  <td class="px-6 py-4 text-white text-sm">
+                    Using online reference check service increase <br />{" "}
+                    time-efficient and cost-effective
+                  </td>
+                </tr>
+                <tr class="bg-black ">
+                  <th
+                    scope="row"
+                    class="px-6 py-4 whitespace-nowrap text-white text-xl font-bold bg-[#5F7CDD]"
+                  >
+                    HUNTERS <br />
+                    <span className="text-sm font-medium">by WECRUIT</span>
+                  </th>
+                  <td class="px-6 py-4 text-white text-sm">
+                    Managing headhunters in <br />a simpler way using platform.
+                  </td>
+                  <td class="px-6 py-4 text-white text-sm">
+                    Headhunter platform, “Hunters”, is all free~**!
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
           {/* Items */}
-          <div
+          {/* <div
             className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none "
             data-aos="zoom-y-out"
             data-aos-delay="300"
-          >
-            {/* 1st item */}
-            <div className="relative  flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
+          > */}
+          {/* 1st item */}
+          {/* <div className="relative  flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -57,10 +107,10 @@ function FeaturesBlocks() {
                 check for up to 960 people in a day at the same time (Hunters)
                 Managing headhunters in a simpler way using platform.
               </p>
-            </div>
+            </div> */}
 
-            {/* 2nd item */}
-            {/* <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
+          {/* 2nd item */}
+          {/* <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -86,8 +136,8 @@ function FeaturesBlocks() {
               </p>
             </div> */}
 
-            {/* 3rd item */}
-            {/* <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
+          {/* 3rd item */}
+          {/* <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -113,8 +163,8 @@ function FeaturesBlocks() {
               </p>
             </div> */}
 
-            {/* 4th item */}
-            <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
+          {/* 4th item */}
+          {/* <div className="relative flex flex-col  p-6 bg-black rounded shadow-xl h-full cursor-default hover:bg-[#5D53A9] hover:bg-opacity-50 hover:border-2 hover:border-[#5D53A9] border-2 border-black">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -138,10 +188,10 @@ function FeaturesBlocks() {
                 time-efficient and cost-effective (Hunters) Headhunter platform,
                 “Hunters”, is all free~**!
               </p>
-            </div>
+            </div> */}
 
-            {/* 5th item */}
-            {/* <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+          {/* 5th item */}
+          {/* <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -174,8 +224,8 @@ function FeaturesBlocks() {
               </p>
             </div> */}
 
-            {/* 6th item */}
-            {/* <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+          {/* 6th item */}
+          {/* <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -216,7 +266,7 @@ function FeaturesBlocks() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div> */}
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </section>
