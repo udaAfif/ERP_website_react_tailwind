@@ -107,12 +107,12 @@ const CarouselHeadhunter = () => {
               <span className="sr-only">Next</span>
             </button>
           </div> */}
-          <div className=" flex justify-center mx-0 lg:mx-32">
+          {/* <div className=" flex justify-center mx-0 lg:mx-32">
             <img
               src="/src/images/3line.png"
               className="object-cover container mb-0 lg:mb-20"
             />
-          </div>
+          </div> */}
 
           <div class="flex justify-center mx-5 py-10 md:mx-20 lg:mx-20">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
